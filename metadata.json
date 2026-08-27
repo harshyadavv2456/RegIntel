@@ -1,0 +1,7 @@
+{
+  "name": "RegIntel Feed",
+  "description": "Regulatory intelligence digest for Indian compliance professionals (CAs, RIAs, compliance officers, fintech legal teams) aggregating SEBI, RBI, MCA, CBDT, and CBIC notifications with Gemini AI summaries, impact tagging, daily digest, and consolidated RSS feed.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
