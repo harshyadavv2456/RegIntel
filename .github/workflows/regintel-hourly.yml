@@ -56,7 +56,7 @@ jobs:
             api: 'RegIntel Public API',
             version: 'v1',
             generatedAt: new Date().toISOString(),
-            refreshCadence: 'Hourly',
+            refreshCadence: 'Every 5 minutes',
             coverage: ['SEBI', 'RBI', 'MCA', 'CBDT', 'CBIC'],
             notificationCount: db.notifications?.length || 0,
             notifications: db.notifications || [],
@@ -74,5 +74,7 @@ jobs:
             echo "No new regulatory data."
           else
             git commit -m "chore: update regulatory intelligence feed"
+            git fetch origin main
+            git rebase origin/main
             git push origin main
           fi
