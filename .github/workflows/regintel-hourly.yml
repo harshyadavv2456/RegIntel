@@ -1,4 +1,5 @@
 name: RegIntel Hourly Feed Update
+# Production feed runner: hourly plus manual/bootstrap execution on workflow changes.
 
 on:
   schedule:
