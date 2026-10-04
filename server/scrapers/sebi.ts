@@ -67,34 +67,8 @@ export class SebiScraper implements RegulatorScraper {
     }
 
     // If live portal blocked or returned 0 items in sandbox, return structured latest authentic circulars
-    if (items.length === 0) {
-      const today = new Date().toISOString().split('T')[0];
-      const yesterday = new Date(Date.now() - 86400000).toISOString().split('T')[0];
-
-      return [
-        {
-          regulator: 'SEBI',
-          title: 'Mandatory Implementation of T+0 Settlement Cycle for top 500 Market Cap Equities',
-          refNumber: `SEBI/HO/MRD/DoP/CIR/P/2025/19`,
-          publishDate: today,
-          sourceUrl: `https://www.sebi.gov.in/legal/circulars/feb-2025/t-plus-zero-settlement-top500.html`,
-          rawText: `1. SEBI issues updated guidelines on optional instantaneous and T+0 settlement for equity cash segments.
-2. Clearing corporations and depository participants must provide direct API connectivity for real-time fund and security transfers.
-3. Market brokers must establish pre-trade risk controls and margin validation to support real-time settlement without credit exposure.`,
-        },
-        {
-          regulator: 'SEBI',
-          title: 'Regulatory framework for ESG Rating Providers (ERPs) - Mandatory Disclosures on Transition Finance Metrics',
-          refNumber: `SEBI/HO/DDHS/DDHS-PoD-2/P/CIR/2025/22`,
-          publishDate: yesterday,
-          sourceUrl: `https://www.sebi.gov.in/legal/circulars/feb-2025/esg-rating-providers-transition-finance.html`,
-          rawText: `1. In continuation of SEBI (Credit Rating Agencies) (Amendment) Regulations, ESG Rating Providers must publicly disclose proprietary weights for BRSR Core parameters.
-2. Ratings on Green Bonds and Social Impact Instruments must undergo annual third-party verification.
-3. Investment managers running ESG-themed schemes must ensure portfolio alignment with certified ERP scores.`,
-        },
-      ];
-    }
-
+    // Never synthesize current regulatory releases when an official portal is blocked, empty, or changes structure.
+    // Zero results are returned to the orchestrator as a source-health signal instead of becoming fake feed items.
     return items;
   }
 }
