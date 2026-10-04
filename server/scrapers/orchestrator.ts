@@ -1,5 +1,4 @@
 import { db } from '../db';
-import { summarizeRegulatoryNotification } from '../gemini';
 import { Regulator, NotificationItem } from '../../src/types';
 import { SebiScraper } from './sebi';
 import { RbiScraper } from './rbi';
@@ -64,13 +63,40 @@ export async function runScraperForRegulator(regulator: Regulator): Promise<Scra
     for (const item of rawItems) {
       const existing = db.findBySourceUrlOrRef(item.sourceUrl, item.refNumber);
       if (!existing) {
-        // Run Gemini AI summarization and impact tagging
-        const aiResult = await summarizeRegulatoryNotification({
-          regulator: item.regulator,
-          title: item.title,
-          refNumber: item.refNumber,
-          rawText: item.rawText,
-        });
+        // Gemini is intentionally disabled in the unattended pipeline.
+        // Build a deterministic, source-grounded summary locally so the feed
+        // remains factual and never invents regulatory content.
+        const text = [item.title, item.rawText].filter(Boolean).join(' — ');
+        const lower = text.toLowerCase();
+        const impactTags: string[] = [];
+        if (/kyc|aml|customer due diligence|money laundering/.test(lower)) impactTags.push('AML/KYC');
+        if (/tax|tds|tcs|income tax|gst|customs|return|assessment/.test(lower)) impactTags.push('tax filing');
+        if (/audit|auditor|assurance/.test(lower)) impactTags.push('audit requirements');
+        if (/disclosure|reporting|statement|return filing/.test(lower)) impactTags.push('disclosure norms');
+        if (/board|director|company|llp|corporate governance|agm|egm/.test(lower)) impactTags.push('corporate governance');
+        if (/payment|upi|digital lending|fintech|wallet|banking/.test(lower)) impactTags.push('fintech & payments');
+        if (/forex|foreign exchange|fema|remittance/.test(lower)) impactTags.push('foreign exchange');
+        if (/mutual fund|aif|portfolio|investment|securities|derivative/.test(lower)) impactTags.push('investment products');
+        if (impactTags.length === 0) impactTags.push('other');
+
+        const urgency: NotificationItem['urgency'] =
+          /immediate|with immediate effect|effective immediately|within \d+ days|penalty|deadline|due date|mandatory/.test(lower)
+            ? 'HIGH'
+            : /effective|compliance|shall|required|applicable/.test(lower)
+              ? 'MEDIUM'
+              : 'LOW';
+
+        const aiResult = {
+          summary: `Official ${item.regulator} release: ${item.title}. See the source document for the authoritative requirements and effective dates.`,
+          impactTags: [...new Set(impactTags)],
+          applicableEntities: [],
+          urgency,
+          keyActionItems: [
+            'Review the official source document and identify applicability.',
+            'Confirm effective date, deadlines, and implementation requirements.',
+            'Record any required internal compliance action.'
+          ],
+        };
 
         const newNotification: NotificationItem = {
           id: `${item.regulator.toLowerCase()}-${Date.now()}-${Math.random().toString(36).substring(2, 6)}`,
@@ -94,7 +120,7 @@ export async function runScraperForRegulator(regulator: Regulator): Promise<Scra
       }
     }
 
-    const message = `Extracted ${rawItems.length} items; ${newItemsCount} new circular(s) ingested & summarized with Gemini.`;
+    const message = `Extracted ${rawItems.length} items; ${newItemsCount} new circular(s) ingested with deterministic source-grounded classification.`;
 
     db.updateScraperSource(sourceId, {
       lastScrapeTime: new Date().toISOString(),
