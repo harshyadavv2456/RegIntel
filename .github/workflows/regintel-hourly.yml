@@ -8,6 +8,8 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/regintel-hourly.yml'
+      - 'server/**'
+      - 'api/**'
   workflow_dispatch:
 
 permissions:
@@ -38,7 +40,7 @@ jobs:
         run: npm run lint
       - name: Run regulatory ingestion
         run: |
-          npx tsx -e "import { runScrapeAndSummarizePipeline } from './server/scrapers/orchestrator.ts'; runScrapeAndSummarizePipeline().then(r => { console.log(JSON.stringify(r, null, 2)); if (!r.results.every(x => x.success)) process.exit(1); }).catch(e => { console.error(e); process.exit(1); })"
+          npx tsx -e "import { runScrapeAndSummarizePipeline } from './server/scrapers/orchestrator.ts'; runScrapeAndSummarizePipeline().then(r => { const failures = r.results.filter(x => !x.success); const summary = ['### RegIntel ingestion', '', 'New verified items: ' + r.newItemsIngested, 'Items found: ' + r.totalItemsFound, 'Source failures: ' + failures.length, ...failures.map(x => '- ' + x.regulator + ': ' + x.message)].join('\\n'); require('fs').appendFileSync(process.env.GITHUB_STEP_SUMMARY, summary + '\\n'); console.log(JSON.stringify(r, null, 2)); if (failures.length === r.results.length) process.exit(1); }).catch(e => { console.error(e); process.exit(1); })"
       - name: Generate production data snapshot
         run: |
           node <<'NODE'
