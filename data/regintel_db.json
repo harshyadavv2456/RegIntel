@@ -1548,9 +1548,9 @@
       "name": "SEBI Legal Circulars & Guidelines",
       "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&smid=0&ssid=7",
       "frequency": "Every 30 mins",
-      "lastScrapeTime": "2026-10-04T09:27:44.947Z",
+      "lastScrapeTime": "2026-10-04T09:55:26.343Z",
       "lastScrapeStatus": "success",
-      "lastScrapeMessage": "Extracted 25 items; 0 new circular(s) ingested & summarized with Gemini.",
+      "lastScrapeMessage": "Extracted 25 items; 0 new circular(s) ingested with deterministic source-grounded classification.",
       "totalItemsScraped": 25
     },
     {
@@ -1559,9 +1559,9 @@
       "name": "RBI Notifications & Master Directions",
       "url": "https://www.rbi.org.in/notifications_rss.xml",
       "frequency": "Every 30 mins",
-      "lastScrapeTime": "2026-10-04T09:27:45.988Z",
+      "lastScrapeTime": "2026-10-04T09:55:26.884Z",
       "lastScrapeStatus": "success",
-      "lastScrapeMessage": "Extracted 10 items; 0 new circular(s) ingested & summarized with Gemini.",
+      "lastScrapeMessage": "Extracted 10 items; 0 new circular(s) ingested with deterministic source-grounded classification.",
       "totalItemsScraped": 10
     },
     {
@@ -1570,7 +1570,7 @@
       "name": "Ministry of Corporate Affairs Notifications & Circulars",
       "url": "https://www.mca.gov.in/content/mca/global/en/home.html",
       "frequency": "Every 1 hour",
-      "lastScrapeTime": "2026-10-04T09:27:46.323Z",
+      "lastScrapeTime": "2026-10-04T09:55:27.154Z",
       "lastScrapeStatus": "failed",
       "lastScrapeMessage": "Scrape failed: MCA returned HTTP 403",
       "totalItemsScraped": 0
@@ -1581,9 +1581,9 @@
       "name": "CBDT / Income Tax Circulars & Orders",
       "url": "https://www.incometaxindia.gov.in/circular-rss-feed/-/asset_publisher/bxhj/rss",
       "frequency": "Every 1 hour",
-      "lastScrapeTime": "2026-10-04T09:27:47.305Z",
+      "lastScrapeTime": "2026-10-04T09:55:27.812Z",
       "lastScrapeStatus": "success",
-      "lastScrapeMessage": "Extracted 10 items; 10 new circular(s) ingested & summarized with Gemini.",
+      "lastScrapeMessage": "Extracted 10 items; 0 new circular(s) ingested with deterministic source-grounded classification.",
       "totalItemsScraped": 10
     },
     {
@@ -1592,7 +1592,7 @@
       "name": "CBIC / GST & Customs Notifications",
       "url": "https://taxinformation.cbic.gov.in/",
       "frequency": "Every 1 hour",
-      "lastScrapeTime": "2026-10-04T09:27:50.181Z",
+      "lastScrapeTime": "2026-10-04T09:55:30.601Z",
       "lastScrapeStatus": "failed",
       "lastScrapeMessage": "Scrape failed: fetch failed",
       "totalItemsScraped": 0
