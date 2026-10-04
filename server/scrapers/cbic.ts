@@ -46,21 +46,8 @@ export class CbicScraper implements RegulatorScraper {
       console.warn('Live CBIC fetch failed or timed out:', e);
     }
 
-    if (items.length === 0) {
-      return [
-        {
-          regulator: 'CBIC',
-          title: 'Advisory on Biometric-Based Aadhaar Authentication and Document Verification for GST Registration Applicants',
-          refNumber: 'CBIC Advisory / GSTN Release 2025-02',
-          publishDate: new Date().toISOString().split('T')[0],
-          sourceUrl: 'https://cbic-gst.gov.in/advisories/gstn-biometric-aadhaar-2025.html',
-          rawText: `1. CBIC rolls out nationwide Biometric-based Aadhaar authentication for high-risk GST registration applicants identified by automated risk profiling.
-2. Selected applicants will receive an SMS and Email intimation to visit designated GST Suvidha Kendras (GSK) with original documents.
-3. ARN generation and subsequent registration grant will be paused until biometric validation is cleared.`,
-        },
-      ];
-    }
-
+    // Never synthesize current regulatory releases when an official portal is blocked, empty, or changes structure.
+    // Zero results are returned to the orchestrator as a source-health signal instead of becoming fake feed items.
     return items;
   }
 }
