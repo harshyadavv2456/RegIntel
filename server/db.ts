@@ -270,7 +270,7 @@ class Database {
     } catch (err) {
       console.warn('Error reading db from disk, initializing with seed:', err);
     }
-    const bundled = GENERATED_DB as Partial<DatabaseSchema>;
+    const bundled = GENERATED_DB as unknown as Partial<DatabaseSchema>;
     const initial = {
       notifications: bundled.notifications || SEED_NOTIFICATIONS,
       userPreferences: bundled.userPreferences || INITIAL_USER_PREFS,
