@@ -1,9 +1,9 @@
 name: RegIntel Hourly Feed Update
-# Production feed runner: hourly plus manual/bootstrap execution on workflow changes.
+# Production feed runner: hourly. No synthetic fallback data is permitted.
 
 on:
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '5 * * * *'
   push:
     branches: [main]
     paths:
@@ -20,25 +20,25 @@ concurrency:
 jobs:
   update-feed:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     env:
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
-
       - name: Install dependencies
         run: npm install --no-package-lock
-
+      - name: Typecheck
+        run: npm run lint
+      - name: Build
+        run: npm run build
       - name: Run regulatory ingestion
         run: |
-          npx tsx -e "import { runScrapeAndSummarizePipeline } from './server/scrapers/orchestrator.ts'; runScrapeAndSummarizePipeline().then(r => { console.log(JSON.stringify(r, null, 2)); }).catch(e => { console.error(e); process.exit(1); })"
-
+          npx tsx -e "import { runScrapeAndSummarizePipeline } from './server/scrapers/orchestrator.ts'; runScrapeAndSummarizePipeline().then(r => { console.log(JSON.stringify(r, null, 2)); if (!r.results.every(x => x.success)) process.exit(1); }).catch(e => { console.error(e); process.exit(1); })"
       - name: Generate production data snapshot
         run: |
           node <<'NODE'
@@ -55,32 +55,16 @@ jobs:
           const publicPayload = {
             api: 'RegIntel Public API',
             version: 'v1',
-            generatedAt: db.notifications?.[0]?.scrapedAt || null,
-            refreshCadence: 'Every 15 minutes',
+            generatedAt: new Date().toISOString(),
+            refreshCadence: 'Hourly',
             coverage: ['SEBI', 'RBI', 'MCA', 'CBDT', 'CBIC'],
             notificationCount: db.notifications?.length || 0,
             notifications: db.notifications || [],
             sources: db.scraperSources || []
           };
           fs.writeFileSync(publicOutput, JSON.stringify(publicPayload, null, 2) + '\n');
-          console.log('Generated ' + output + ' and ' + publicOutput + ': ' + (db.notifications?.length || 0) + ' notifications');
+          console.log('Generated snapshots: ' + (db.notifications?.length || 0) + ' notifications');
           NODE
-
-      - name: Show data changes
-        run: |
-          if [ -f data/regintel_db.json ]; then
-            echo "Database generated:"
-            wc -c data/regintel_db.json
-            echo "Production snapshot:"
-            wc -c server/data.generated.ts
-            echo "Public API snapshot:"
-            wc -c data/public_api.json
-            git status --short
-          else
-            echo "::error::Scraper completed without generating data/regintel_db.json"
-            exit 1
-          fi
-
       - name: Commit updated feed
         run: |
           git config user.name "regintel-bot"
