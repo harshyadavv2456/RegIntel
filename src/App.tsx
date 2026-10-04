@@ -19,7 +19,7 @@ import {
 import { Shield, Sparkles, CheckCircle2, AlertCircle, RefreshCw } from 'lucide-react';
 import { GENERATED_DB } from './data.generated';
 
-const BUNDLED_NOTIFICATIONS = GENERATED_DB.notifications as NotificationItem[];
+const BUNDLED_NOTIFICATIONS = [...GENERATED_DB.notifications] as NotificationItem[];
 
 export default function App() {
   const [activeTab, setActiveTab] = useState<ActiveTab>('feed');
