@@ -14,7 +14,7 @@ import { Regulator, NotificationItem } from './src/types';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-async function startServer() {
+export async function startServer() {
   const app = express();
   const PORT = 3000;
 
@@ -352,12 +352,18 @@ async function startServer() {
     });
   }
 
-  app.listen(PORT, '0.0.0.0', () => {
-    console.log(`[RegIntel Feed Server] Live and listening on http://0.0.0.0:${PORT}`);
-  });
+  if (!process.env.VERCEL) {
+    app.listen(PORT, '0.0.0.0', () => {
+      console.log(`[RegIntel Feed Server] Live and listening on http://0.0.0.0:${PORT}`);
+    });
+  }
+
+  return app;
 }
 
-startServer().catch((err) => {
-  console.error('Fatal server startup error:', err);
-  process.exit(1);
-});
+if (!process.env.VERCEL) {
+  startServer().catch((err) => {
+    console.error('Fatal server startup error:', err);
+    process.exit(1);
+  });
+}
