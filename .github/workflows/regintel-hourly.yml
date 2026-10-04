@@ -50,7 +50,7 @@ jobs:
           const db = JSON.parse(fs.readFileSync(input, 'utf8'));
           const source =
             '// Generated from data/regintel_db.json by the RegIntel ingestion workflow. Do not edit manually.\n' +
-            'export const GENERATED_DB = ' + JSON.stringify(db) + ' as const;\n';
+            'export const GENERATED_DB = ' + JSON.stringify(db) + ' as any;\n';
           fs.writeFileSync(output, source);
           const publicPayload = {
             api: 'RegIntel Public API',
