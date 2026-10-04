@@ -23,7 +23,7 @@ export function handleOptions(req: any, res: any) {
 }
 
 export function getNotifications(query: Record<string, any> = {}) {
-  let items = [...(GENERATED_DB.notifications as any[])];
+  let items = [...GENERATED_DB.notifications] as any[];
   const regulator = query.regulator ? String(query.regulator).toUpperCase() : undefined;
   const tag = query.tag ? String(query.tag).toLowerCase() : undefined;
   const search = query.search ? String(query.search).toLowerCase() : undefined;
