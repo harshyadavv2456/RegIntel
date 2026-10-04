@@ -49,7 +49,7 @@ export class RbiScraper implements RegulatorScraper {
         });
       }
     } catch (err) {
-      console.warn('Live RBI fetch failed or timed out, using fallback verified circular feed:', err);
+      console.warn('Live RBI fetch failed or timed out, source fetch failed:', err);
     }
 
     // Never synthesize current regulatory releases when an official portal is blocked, empty, or changes structure.
