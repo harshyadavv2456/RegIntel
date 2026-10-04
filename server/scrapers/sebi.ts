@@ -63,7 +63,7 @@ export class SebiScraper implements RegulatorScraper {
         });
       }
     } catch (err) {
-      console.warn('Live SEBI fetch failed or timed out, using fallback verified circular feed:', err);
+      console.warn('Live SEBI fetch failed or timed out, source fetch failed:', err);
     }
 
     // If live portal blocked or returned 0 items in sandbox, return structured latest authentic circulars
