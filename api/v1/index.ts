@@ -44,7 +44,7 @@ export default function handler(req: any, res: any) {
     api: 'RegIntel Public API',
     version: 'v1',
     generatedAt: GENERATED_DB.notifications[0]?.scrapedAt || null,
-    refreshCadence: 'Every 15 minutes',
+    refreshCadence: 'Hourly',
     dataSource: 'Automated regulatory ingestion pipeline',
     coverage: ['SEBI', 'RBI', 'MCA', 'CBDT', 'CBIC'],
     totalAvailable: GENERATED_DB.notifications.length,
@@ -52,7 +52,7 @@ export default function handler(req: any, res: any) {
     regulatorBreakdown: breakdown,
     endpoints: {
       thisFeed: '/api/v1',
-      filterExamples: '/api/v1?regulator=SEBI', '/api/v1?urgency=HIGH', '/api/v1?search=KYC',
+      filterExamples: ['/api/v1?regulator=SEBI', '/api/v1?urgency=HIGH', '/api/v1?search=KYC'],
       singleItem: '/api/v1?id={notificationId}',
       tag: '/api/v1?tag=AML/KYC',
       dateRange: '/api/v1?startDate=2026-10-01&endDate=2026-10-04',
