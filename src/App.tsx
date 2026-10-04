@@ -52,7 +52,7 @@ export default function App() {
   const loadFeed = useCallback(async () => {
     try {
       setLoadingFeed(true);
-      const res = await fetch('/api/notifications');
+      const res = await fetch(`/api/notifications?ts=${Date.now()}`, { cache: 'no-store' });
       const data = await res.json();
       if (data.success && data.items) {
         setNotifications(data.items);
@@ -66,7 +66,7 @@ export default function App() {
 
   const loadSaved = useCallback(async () => {
     try {
-      const res = await fetch('/api/saved');
+      const res = await fetch(`/api/saved?ts=${Date.now()}`, { cache: 'no-store' });
       const data = await res.json();
       if (data.success && data.items) {
         setSavedItems(data.items);
@@ -79,7 +79,7 @@ export default function App() {
   const loadDigest = useCallback(async () => {
     try {
       setLoadingDigest(true);
-      const res = await fetch('/api/digest/today');
+      const res = await fetch(`/api/digest/today?ts=${Date.now()}`, { cache: 'no-store' });
       const data = await res.json();
       if (data.success && data.digest) {
         setDigest(data.digest);
@@ -93,7 +93,7 @@ export default function App() {
 
   const loadSources = useCallback(async () => {
     try {
-      const res = await fetch('/api/sources');
+      const res = await fetch(`/api/sources?ts=${Date.now()}`, { cache: 'no-store' });
       const data = await res.json();
       if (data.success && data.sources) {
         setSources(data.sources);
@@ -105,7 +105,7 @@ export default function App() {
 
   const loadPreferences = useCallback(async () => {
     try {
-      const res = await fetch('/api/settings');
+      const res = await fetch(`/api/settings?ts=${Date.now()}`, { cache: 'no-store' });
       const data = await res.json();
       if (data.success && data.preferences) {
         setPreferences(data.preferences);
@@ -121,6 +121,17 @@ export default function App() {
     loadDigest();
     loadSources();
     loadPreferences();
+
+    // Keep the open dashboard synchronized with the GitHub/Vercel feed.
+    // The backend feed is refreshed hourly; polling every 5 minutes ensures
+    // the UI reflects a newly deployed dataset without a manual page refresh.
+    const refreshTimer = window.setInterval(() => {
+      loadFeed();
+      loadDigest();
+      loadSources();
+    }, 5 * 60 * 1000);
+
+    return () => window.clearInterval(refreshTimer);
   }, [loadFeed, loadSaved, loadDigest, loadSources, loadPreferences]);
 
   // Derived saved maps
