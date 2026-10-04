@@ -52,6 +52,7 @@ export async function runScraperForRegulator(regulator: Regulator): Promise<Scra
 
   // Update source status to running
   db.updateScraperSource(sourceId, {
+    url: scraper.sourceUrl,
     lastScrapeStatus: 'running',
     lastScrapeMessage: `Actively scraping ${regulator} portal...`,
   });
