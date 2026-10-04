@@ -44,7 +44,7 @@ export default function handler(req: any, res: any) {
     api: 'RegIntel Public API',
     version: 'v1',
     generatedAt: GENERATED_DB.notifications[0]?.scrapedAt || null,
-    refreshCadence: 'Hourly',
+    refreshCadence: 'Every 5 minutes',
     dataSource: 'Automated regulatory ingestion pipeline',
     coverage: ['SEBI', 'RBI', 'MCA', 'CBDT', 'CBIC'],
     totalAvailable: GENERATED_DB.notifications.length,
