@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { NotificationItem, UserPreferences, SavedItem, ScraperSource } from '../src/types';
+import { GENERATED_DB } from './data.generated';
 
 interface DatabaseSchema {
   notifications: NotificationItem[];
@@ -269,11 +270,12 @@ class Database {
     } catch (err) {
       console.warn('Error reading db from disk, initializing with seed:', err);
     }
+    const bundled = GENERATED_DB as Partial<DatabaseSchema>;
     const initial = {
-      notifications: SEED_NOTIFICATIONS,
-      userPreferences: INITIAL_USER_PREFS,
-      savedItems: INITIAL_SAVED_ITEMS,
-      scraperSources: INITIAL_SOURCES,
+      notifications: bundled.notifications || SEED_NOTIFICATIONS,
+      userPreferences: bundled.userPreferences || INITIAL_USER_PREFS,
+      savedItems: bundled.savedItems || INITIAL_SAVED_ITEMS,
+      scraperSources: bundled.scraperSources || INITIAL_SOURCES,
     };
     this.saveToDisk(initial);
     return initial;
