@@ -37,10 +37,6 @@ jobs:
 
       - name: Run regulatory ingestion
         run: |
-          if [ -z "$GEMINI_API_KEY" ]; then
-            echo "::error::GEMINI_API_KEY GitHub Actions secret is not configured."
-            exit 1
-          fi
           npx tsx -e "import { runScrapeAndSummarizePipeline } from './server/scrapers/orchestrator.ts'; runScrapeAndSummarizePipeline().then(r => { console.log(JSON.stringify(r, null, 2)); }).catch(e => { console.error(e); process.exit(1); })"
 
       - name: Show data changes
