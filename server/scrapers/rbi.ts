@@ -52,35 +52,8 @@ export class RbiScraper implements RegulatorScraper {
       console.warn('Live RBI fetch failed or timed out, using fallback verified circular feed:', err);
     }
 
-    if (items.length === 0) {
-      const today = new Date().toISOString().split('T')[0];
-      const twoDaysAgo = new Date(Date.now() - 86400000 * 2).toISOString().split('T')[0];
-
-      return [
-        {
-          regulator: 'RBI',
-          title: 'Revised Risk Weights for Unsecured Consumer Lending and NBFC Bank Credit Exposure',
-          refNumber: 'RBI/2024-25/122 DoR.CRE.REC.No.44/21.04.048/2024-25',
-          publishDate: today,
-          sourceUrl: 'https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=12760&Mode=0',
-          rawText: `1. On a review of growth in consumer credit, RBI has decided to adjust regulatory risk weights on retail unsecured loans.
-2. The risk weight on consumer credit exposure of commercial banks is pegged at 125%.
-3. Bank credit to NBFCs for onward unsecured retail lending will attract an additional 25 percentage points risk charge.
-4. Housing loans, education loans, and vehicle loans secured by gold jewellery remain excluded from this risk weight hike.`,
-        },
-        {
-          regulator: 'RBI',
-          title: 'Interoperable Cardless Cash Withdrawal (ICCW) at ATMs through Unified Payments Interface (UPI)',
-          refNumber: 'RBI/2024-25/115 DPSS.CO.PD.No.612/02.10.002/2024-25',
-          publishDate: twoDaysAgo,
-          sourceUrl: 'https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=12738&Mode=0',
-          rawText: `1. All banks and ATM networks must enable Interoperable Cardless Cash Withdrawal (ICCW) using dynamic UPI QR codes across 100% of their ATM fleet.
-2. Transactions must be processed without levying any separate fee beyond standard inter-bank interchange rates.
-3. Daily customer limits for ICCW transactions shall be aligned with regular ATM withdrawal ceilings.`,
-        },
-      ];
-    }
-
+    // Never synthesize current regulatory releases when an official portal is blocked, empty, or changes structure.
+    // Zero results are returned to the orchestrator as a source-health signal instead of becoming fake feed items.
     return items;
   }
 }
