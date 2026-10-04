@@ -39,11 +39,28 @@ jobs:
         run: |
           npx tsx -e "import { runScrapeAndSummarizePipeline } from './server/scrapers/orchestrator.ts'; runScrapeAndSummarizePipeline().then(r => { console.log(JSON.stringify(r, null, 2)); }).catch(e => { console.error(e); process.exit(1); })"
 
+      - name: Generate production data snapshot
+        run: |
+          node <<'NODE'
+          const fs = require('fs');
+          const input = 'data/regintel_db.json';
+          const output = 'server/data.generated.ts';
+          if (!fs.existsSync(input)) throw new Error('Missing data/regintel_db.json');
+          const db = JSON.parse(fs.readFileSync(input, 'utf8'));
+          const source =
+            '// Generated from data/regintel_db.json by the RegIntel ingestion workflow. Do not edit manually.\n' +
+            'export const GENERATED_DB = ' + JSON.stringify(db) + ' as const;\n';
+          fs.writeFileSync(output, source);
+          console.log('Generated ' + output + ': ' + (db.notifications?.length || 0) + ' notifications');
+          NODE
+
       - name: Show data changes
         run: |
           if [ -f data/regintel_db.json ]; then
             echo "Database generated:"
             wc -c data/regintel_db.json
+            echo "Production snapshot:"
+            wc -c server/data.generated.ts
             git status --short
           else
             echo "::error::Scraper completed without generating data/regintel_db.json"
@@ -54,7 +71,7 @@ jobs:
         run: |
           git config user.name "regintel-bot"
           git config user.email "regintel-bot@users.noreply.github.com"
-          git add data/regintel_db.json
+          git add data/regintel_db.json server/data.generated.ts
           if git diff --cached --quiet; then
             echo "No new regulatory data."
           else
