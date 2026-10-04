@@ -4,8 +4,8 @@ import { cleanRowText, extractReference, normalizeUrl, parseDate } from './utils
 
 export class McaScraper implements RegulatorScraper {
   public regulator: 'MCA' = 'MCA';
-  public name = 'Ministry of Corporate Affairs Notifications & Circulars';
-  public sourceUrl = 'https://www.mca.gov.in/content/mca/global/en/notifications-circulars/circulars.html';
+  public name = 'MCA Notifications & Updates';
+  public sourceUrl = 'https://www.mca.gov.in/content/mca/global/en/home.html';
 
   public async scrape(): Promise<RawScrapedCircular[]> {
     const items: RawScrapedCircular[] = [];
@@ -19,16 +19,31 @@ export class McaScraper implements RegulatorScraper {
       if (!res.ok) throw new Error(`MCA returned HTTP ${res.status}`);
       const html = await res.text();
       const $ = cheerio.load(html);
-      $('table tr, .circular-list-item').each((_, el) => {
-        const rowText = cleanRowText($(el).text());
-        const link = $(el).find('a').first();
-        const title = cleanRowText(link.text());
-        const sourceUrl = normalizeUrl('https://www.mca.gov.in', link.attr('href') || '');
-        const publishDate = parseDate(rowText);
-        if (!title || title.length < 15 || !sourceUrl || !publishDate) return;
-        items.push({ regulator: 'MCA', title, refNumber: extractReference(rowText), publishDate, sourceUrl, rawText: rowText });
+
+      $('a[href]').each((_, el) => {
+        const title = cleanRowText($(el).text());
+        const href = $(el).attr('href') || '';
+        const parentText = cleanRowText($(el).parent().text());
+        const context = cleanRowText($(el).parent().parent().text());
+        const rawText = context.length > parentText.length ? context : parentText;
+        const publishDate = parseDate(rawText);
+        const sourceUrl = normalizeUrl('https://www.mca.gov.in', href);
+        const relevant = /notification|circular|amendment|rules|compliance|filing|company|llp/i.test(title);
+        if (!relevant || title.length < 15 || !sourceUrl || !publishDate) return;
+        if (items.some((item) => item.sourceUrl === sourceUrl)) return;
+
+        items.push({
+          regulator: 'MCA',
+          title,
+          refNumber: extractReference(rawText),
+          publishDate,
+          sourceUrl,
+          rawText,
+        });
       });
-    } finally { clearTimeout(timeout); }
+    } finally {
+      clearTimeout(timeout);
+    }
     return items;
   }
 }
