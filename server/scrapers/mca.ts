@@ -46,21 +46,8 @@ export class McaScraper implements RegulatorScraper {
       console.warn('Live MCA fetch failed or timed out:', e);
     }
 
-    if (items.length === 0) {
-      return [
-        {
-          regulator: 'MCA',
-          title: 'Clarification on Holding of Annual General Meetings (AGM) and EGMs through Video Conference (VC) Mode for FY 2024-25',
-          refNumber: 'MCA General Circular No. 02/2025',
-          publishDate: new Date().toISOString().split('T')[0],
-          sourceUrl: 'https://www.mca.gov.in/content/mca/global/en/notifications-circulars/general-circular-02-2025.html',
-          rawText: `1. MCA allows companies whose AGMs are due in 2025 to conduct meetings through Video Conferencing (VC) or Other Audio Visual Means (OAVM) up to September 30, 2025.
-2. The framework specified in General Circular No. 14/2020 dated April 8, 2020 shall continue to apply mutatis mutandis.
-3. Transcripts of recorded AGM proceedings must be maintained on the company official website and preserved for at least 8 financial years.`,
-        },
-      ];
-    }
-
+    // Never synthesize current regulatory releases when an official portal is blocked, empty, or changes structure.
+    // Zero results are returned to the orchestrator as a source-health signal instead of becoming fake feed items.
     return items;
   }
 }
