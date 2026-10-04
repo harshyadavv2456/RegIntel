@@ -1308,7 +1308,7 @@
       "name": "SEBI Legal Circulars & Guidelines",
       "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&smid=0&ssid=7",
       "frequency": "Every 30 mins",
-      "lastScrapeTime": "2026-10-04T08:59:59.835Z",
+      "lastScrapeTime": "2026-10-04T09:01:47.435Z",
       "lastScrapeStatus": "success",
       "lastScrapeMessage": "Extracted 25 items; 0 new circular(s) ingested & summarized with Gemini.",
       "totalItemsScraped": 25
@@ -1319,7 +1319,7 @@
       "name": "RBI Notifications & Master Directions",
       "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx",
       "frequency": "Every 30 mins",
-      "lastScrapeTime": "2026-10-04T09:00:01.013Z",
+      "lastScrapeTime": "2026-10-04T09:01:48.795Z",
       "lastScrapeStatus": "success",
       "lastScrapeMessage": "Extracted 20 items; 0 new circular(s) ingested & summarized with Gemini.",
       "totalItemsScraped": 20
@@ -1330,7 +1330,7 @@
       "name": "Ministry of Corporate Affairs Notifications & Circulars",
       "url": "https://www.mca.gov.in/content/mca/global/en/notifications-circulars/circulars.html",
       "frequency": "Every 1 hour",
-      "lastScrapeTime": "2026-10-04T09:00:01.650Z",
+      "lastScrapeTime": "2026-10-04T09:01:49.401Z",
       "lastScrapeStatus": "success",
       "lastScrapeMessage": "Extracted 0 items; 0 new circular(s) ingested & summarized with Gemini.",
       "totalItemsScraped": 0
@@ -1341,7 +1341,7 @@
       "name": "CBDT / Income Tax Circulars & Orders",
       "url": "https://incometaxindia.gov.in/Pages/communications/circulars.aspx",
       "frequency": "Every 1 hour",
-      "lastScrapeTime": "2026-10-04T09:00:04.297Z",
+      "lastScrapeTime": "2026-10-04T09:01:53.281Z",
       "lastScrapeStatus": "success",
       "lastScrapeMessage": "Extracted 0 items; 0 new circular(s) ingested & summarized with Gemini.",
       "totalItemsScraped": 0
@@ -1352,7 +1352,7 @@
       "name": "CBIC / GST & Customs Notifications",
       "url": "https://cbic-gst.gov.in/notifications.html",
       "frequency": "Every 1 hour",
-      "lastScrapeTime": "2026-10-04T09:00:05.616Z",
+      "lastScrapeTime": "2026-10-04T09:01:54.583Z",
       "lastScrapeStatus": "success",
       "lastScrapeMessage": "Extracted 0 items; 0 new circular(s) ingested & summarized with Gemini.",
       "totalItemsScraped": 0
