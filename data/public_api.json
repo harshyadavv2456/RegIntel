@@ -1,8 +1,8 @@
 {
   "api": "RegIntel Public API",
   "version": "v1",
-  "generatedAt": "2026-10-04T08:39:59.176Z",
-  "refreshCadence": "Every 15 minutes",
+  "generatedAt": "2026-10-04T09:27:50.387Z",
+  "refreshCadence": "Hourly",
   "coverage": [
     "SEBI",
     "RBI",
@@ -10,8 +10,248 @@
     "CBDT",
     "CBIC"
   ],
-  "notificationCount": 52,
+  "notificationCount": 62,
   "notifications": [
+    {
+      "id": "cbdt-1791106067303-533b",
+      "regulator": "CBDT",
+      "title": "Circular No. 13 /2025 : Order under section 119 of tbe Income-tax Act, 1961 for waiver of interest payable under section 220(2) due to late payment of demand, in certain cases",
+      "refNumber": "Circular No. 13",
+      "publishDate": "2025-11-29",
+      "sourceUrl": "https://www.incometaxindia.gov.in/w/circular-no.-13-/2025-order-under-section-119-of-tbe-income-tax-act-1961-for-waiver-of-interest-payable-under-section-220-2-due-to-late-payment-of-demand-in-certain-cases?redirect=%2Fcircular-rss-feed%2F-%2Fasset_publisher%2Fbxhj%2Frss",
+      "rawText": "Circular No. 13 /2025 : Order under section 119 of tbe Income-tax Act, 1961 for waiver of interest payable under section 220(2) due to late payment of demand, in certain cases — Sat, 29 Nov 2025 04:35:00 GMT",
+      "aiSummary": "CBDT issued official circular \"Circular No. 13 /2025 : Order under section 119 of tbe Income-tax Act, 1961 for waiver of interest payable under section 220(2) due to late payment of demand, in certain cases\". Regulated entities must review the mandated operational changes and compliance requirements.",
+      "impactTags": [
+        "other"
+      ],
+      "applicableEntities": [
+        "Regulated Entities",
+        "Compliance Officers"
+      ],
+      "urgency": "MEDIUM",
+      "keyActionItems": [
+        "Review circular provisions with compliance team.",
+        "Assess impact on existing operational workflows and reporting."
+      ],
+      "scrapedAt": "2026-10-04T09:27:47.303Z",
+      "isNew": true
+    },
+    {
+      "id": "cbdt-1791106067264-c9t5",
+      "regulator": "CBDT",
+      "title": "Circular No. 14/2025 : Extension of timelines for filing of various reports of audit for Financial Year 2024-25 (relevant to Assessment Year 2025-26) by auditable assessees",
+      "refNumber": "Circular No. 14/2025",
+      "publishDate": "2025-11-29",
+      "sourceUrl": "https://www.incometaxindia.gov.in/w/circular-no.-14/2025-extension-of-timelines-for-filing-of-various-reports-of-audit-for-financial-year-2024-25-relevant-to-assessment-year-2025-26-by-auditable-assessees?redirect=%2Fcircular-rss-feed%2F-%2Fasset_publisher%2Fbxhj%2Frss",
+      "rawText": "Circular No. 14/2025 : Extension of timelines for filing of various reports of audit for Financial Year 2024-25 (relevant to Assessment Year 2025-26) by auditable assessees — Sat, 29 Nov 2025 04:35:00 GMT",
+      "aiSummary": "CBDT issued official circular \"Circular No. 14/2025 : Extension of timelines for filing of various reports of audit for Financial Year 2024-25 (relevant to Assessment Year 2025-26) by auditable assessees\". Regulated entities must review the mandated operational changes and compliance requirements.",
+      "impactTags": [
+        "other"
+      ],
+      "applicableEntities": [
+        "Regulated Entities",
+        "Compliance Officers"
+      ],
+      "urgency": "MEDIUM",
+      "keyActionItems": [
+        "Review circular provisions with compliance team.",
+        "Assess impact on existing operational workflows and reporting."
+      ],
+      "scrapedAt": "2026-10-04T09:27:47.264Z",
+      "isNew": true
+    },
+    {
+      "id": "cbdt-1791106067229-3ydz",
+      "regulator": "CBDT",
+      "title": "Circular No.15/2025 : Extension of timelines for filing of various reports of audit and Income Tax Returns (ITRs) for the Assessment Year 2025-26",
+      "refNumber": "Circular No.15/2025",
+      "publishDate": "2025-11-29",
+      "sourceUrl": "https://www.incometaxindia.gov.in/w/circular-no.15/2025-extension-of-timelines-for-filing-of-various-reports-of-audit-and-income-tax-returns-itrs-for-the-assessment-year-2025-26?redirect=%2Fcircular-rss-feed%2F-%2Fasset_publisher%2Fbxhj%2Frss",
+      "rawText": "Circular No.15/2025 : Extension of timelines for filing of various reports of audit and Income Tax Returns (ITRs) for the Assessment Year 2025-26 — Sat, 29 Nov 2025 04:35:00 GMT",
+      "aiSummary": "CBDT issued official circular \"Circular No.15/2025 : Extension of timelines for filing of various reports of audit and Income Tax Returns (ITRs) for the Assessment Year 2025-26\". Regulated entities must review the mandated operational changes and compliance requirements.",
+      "impactTags": [
+        "other"
+      ],
+      "applicableEntities": [
+        "Regulated Entities",
+        "Compliance Officers"
+      ],
+      "urgency": "MEDIUM",
+      "keyActionItems": [
+        "Review circular provisions with compliance team.",
+        "Assess impact on existing operational workflows and reporting."
+      ],
+      "scrapedAt": "2026-10-04T09:27:47.229Z",
+      "isNew": true
+    },
+    {
+      "id": "cbdt-1791106067189-b854",
+      "regulator": "CBDT",
+      "title": "Circular No. 1/2026 : Clarification regarding power to condone delay in filing Form No. 10A under sub-clause (i) clause (ac) of sub-section (1) of section 12A of the Income Tax Act, 1961",
+      "refNumber": "Circular No. 1/2026",
+      "publishDate": "2026-03-23",
+      "sourceUrl": "https://www.incometaxindia.gov.in/w/circular-no.-1/2026-clarification-regarding-power-to-condone-delay-in-filing-form-no.-10a-under-sub-clause-i-clause-ac-of-sub-section-1-of-section-12a-of-the-income-tax-act-1961?redirect=%2Fcircular-rss-feed%2F-%2Fasset_publisher%2Fbxhj%2Frss",
+      "rawText": "Circular No. 1/2026 : Clarification regarding power to condone delay in filing Form No. 10A under sub-clause (i) clause (ac) of sub-section (1) of section 12A of the Income Tax Act, 1961 — Mon, 23 Mar 2026 11:48:00 GMT",
+      "aiSummary": "CBDT issued official circular \"Circular No. 1/2026 : Clarification regarding power to condone delay in filing Form No. 10A under sub-clause (i) clause (ac) of sub-section (1) of section 12A of the Income Tax Act, 1961\". Regulated entities must review the mandated operational changes and compliance requirements.",
+      "impactTags": [
+        "other"
+      ],
+      "applicableEntities": [
+        "Regulated Entities",
+        "Compliance Officers"
+      ],
+      "urgency": "MEDIUM",
+      "keyActionItems": [
+        "Review circular provisions with compliance team.",
+        "Assess impact on existing operational workflows and reporting."
+      ],
+      "scrapedAt": "2026-10-04T09:27:47.189Z",
+      "isNew": true
+    },
+    {
+      "id": "cbdt-1791106067155-7d27",
+      "regulator": "CBDT",
+      "title": "Circular No. 2/2026 : Order under section 119 of the Income-tax Act, 1961 for extension of timeline for issuance of tax deducted at source (TDS) certificate under section 203 of the Act for the quarter ending 31st December 2025",
+      "refNumber": "Circular No. 2/2026",
+      "publishDate": "2026-03-26",
+      "sourceUrl": "https://www.incometaxindia.gov.in/w/circular-no.-2/2026-order-under-section-119-of-the-income-tax-act-1961-for-extension-of-timeline-for-issuance-of-tax-deducted-at-source-tds-certificate-under-section-203-of-the-act-for-the-quarter-ending-31st-december-2025?redirect=%2Fcircular-rss-feed%2F-%2Fasset_publisher%2Fbxhj%2Frss",
+      "rawText": "Circular No. 2/2026 : Order under section 119 of the Income-tax Act, 1961 for extension of timeline for issuance of tax deducted at source (TDS) certificate under section 203 of the Act for the quarter ending 31st December 2025 — Thu, 26 Mar 2026 09:14:00 GMT",
+      "aiSummary": "CBDT issued official circular \"Circular No. 2/2026 : Order under section 119 of the Income-tax Act, 1961 for extension of timeline for issuance of tax deducted at source (TDS) certificate under section 203 of the Act for the quarter ending 31st December 2025\". Regulated entities must review the mandated operational changes and compliance requirements.",
+      "impactTags": [
+        "other"
+      ],
+      "applicableEntities": [
+        "Regulated Entities",
+        "Compliance Officers"
+      ],
+      "urgency": "MEDIUM",
+      "keyActionItems": [
+        "Review circular provisions with compliance team.",
+        "Assess impact on existing operational workflows and reporting."
+      ],
+      "scrapedAt": "2026-10-04T09:27:47.155Z",
+      "isNew": true
+    },
+    {
+      "id": "cbdt-1791106067112-lgds",
+      "regulator": "CBDT",
+      "title": "Circular No. 3/2026 : Notification of Sovereign Wealth Fund under Schedule V [Table: Sl. No. 7.Note S(a)(ii)(G)] of the Income-tax Act, 2025",
+      "refNumber": "Circular No. 3/2026",
+      "publishDate": "2026-03-30",
+      "sourceUrl": "https://www.incometaxindia.gov.in/w/circular-no.-3/2026-notification-of-sovereign-wealth-fund-under-schedule-v-table-sl.-no.-7.note-s-a-ii-g-of-the-income-tax-act-2025?redirect=%2Fcircular-rss-feed%2F-%2Fasset_publisher%2Fbxhj%2Frss",
+      "rawText": "Circular No. 3/2026 : Notification of Sovereign Wealth Fund under Schedule V [Table: Sl. No. 7.Note S(a)(ii)(G)] of the Income-tax Act, 2025 — Mon, 30 Mar 2026 09:24:00 GMT",
+      "aiSummary": "CBDT issued official circular \"Circular No. 3/2026 : Notification of Sovereign Wealth Fund under Schedule V [Table: Sl. No. 7.Note S(a)(ii)(G)] of the Income-tax Act, 2025\". Regulated entities must review the mandated operational changes and compliance requirements.",
+      "impactTags": [
+        "other"
+      ],
+      "applicableEntities": [
+        "Regulated Entities",
+        "Compliance Officers"
+      ],
+      "urgency": "MEDIUM",
+      "keyActionItems": [
+        "Review circular provisions with compliance team.",
+        "Assess impact on existing operational workflows and reporting."
+      ],
+      "scrapedAt": "2026-10-04T09:27:47.112Z",
+      "isNew": true
+    },
+    {
+      "id": "cbdt-1791106067080-6jdp",
+      "regulator": "CBDT",
+      "title": "Circular No. 4/2026 : Referencing by Document Identification Number (DIN)",
+      "refNumber": "Circular No. 4/2026",
+      "publishDate": "2026-03-31",
+      "sourceUrl": "https://www.incometaxindia.gov.in/w/circular-no.-4/2026-referencing-by-document-identification-number-din-?redirect=%2Fcircular-rss-feed%2F-%2Fasset_publisher%2Fbxhj%2Frss",
+      "rawText": "Circular No. 4/2026 : Referencing by Document Identification Number (DIN) — Tue, 31 Mar 2026 02:45:00 GMT",
+      "aiSummary": "CBDT issued official circular \"Circular No. 4/2026 : Referencing by Document Identification Number (DIN)\". Regulated entities must review the mandated operational changes and compliance requirements.",
+      "impactTags": [
+        "other"
+      ],
+      "applicableEntities": [
+        "Regulated Entities",
+        "Compliance Officers"
+      ],
+      "urgency": "MEDIUM",
+      "keyActionItems": [
+        "Review circular provisions with compliance team.",
+        "Assess impact on existing operational workflows and reporting."
+      ],
+      "scrapedAt": "2026-10-04T09:27:47.080Z",
+      "isNew": true
+    },
+    {
+      "id": "cbdt-1791106067036-qwz8",
+      "regulator": "CBDT",
+      "title": "Circular No. 5/2026 : Clarification on the safe harbour rules for sale of rough diamonds in special notified zones (SNZs).",
+      "refNumber": "Circular No. 5/2026",
+      "publishDate": "2026-07-06",
+      "sourceUrl": "https://www.incometaxindia.gov.in/w/circular-no.-5/2026-clarification-on-the-safe-harbour-rules-for-sale-of-rough-diamonds-in-special-notified-zones-snzs-.?redirect=%2Fcircular-rss-feed%2F-%2Fasset_publisher%2Fbxhj%2Frss",
+      "rawText": "Circular No. 5/2026 : Clarification on the safe harbour rules for sale of rough diamonds in special notified zones (SNZs). — Mon, 06 Jul 2026 09:34:00 GMT",
+      "aiSummary": "CBDT issued official circular \"Circular No. 5/2026 : Clarification on the safe harbour rules for sale of rough diamonds in special notified zones (SNZs).\". Regulated entities must review the mandated operational changes and compliance requirements.",
+      "impactTags": [
+        "other"
+      ],
+      "applicableEntities": [
+        "Regulated Entities",
+        "Compliance Officers"
+      ],
+      "urgency": "MEDIUM",
+      "keyActionItems": [
+        "Review circular provisions with compliance team.",
+        "Assess impact on existing operational workflows and reporting."
+      ],
+      "scrapedAt": "2026-10-04T09:27:47.036Z",
+      "isNew": true
+    },
+    {
+      "id": "cbdt-1791106067010-3nhd",
+      "regulator": "CBDT",
+      "title": "Circular No. 6/2026 : Condonation of delay in filing Form No. 10AB electronically for approval under clause(ii) of the first proviso to section 80G(5) of the Income-tax Act, 1961",
+      "refNumber": "Circular No. 6/2026",
+      "publishDate": "2026-07-02",
+      "sourceUrl": "https://www.incometaxindia.gov.in/w/circular-no.-06/2026-condonation-of-delay-in-filing-form-no.-10ab-electronically-for-approval-under-clause-ii-of-the-first-proviso-to-section-80g-5-of-the-income-tax-act-1961?redirect=%2Fcircular-rss-feed%2F-%2Fasset_publisher%2Fbxhj%2Frss",
+      "rawText": "Circular No. 6/2026 : Condonation of delay in filing Form No. 10AB electronically for approval under clause(ii) of the first proviso to section 80G(5) of the Income-tax Act, 1961 — Thu, 02 Jul 2026 11:02:00 GMT",
+      "aiSummary": "CBDT issued official circular \"Circular No. 6/2026 : Condonation of delay in filing Form No. 10AB electronically for approval under clause(ii) of the first proviso to section 80G(5) of the Income-tax Act, 1961\". Regulated entities must review the mandated operational changes and compliance requirements.",
+      "impactTags": [
+        "other"
+      ],
+      "applicableEntities": [
+        "Regulated Entities",
+        "Compliance Officers"
+      ],
+      "urgency": "MEDIUM",
+      "keyActionItems": [
+        "Review circular provisions with compliance team.",
+        "Assess impact on existing operational workflows and reporting."
+      ],
+      "scrapedAt": "2026-10-04T09:27:47.010Z",
+      "isNew": true
+    },
+    {
+      "id": "cbdt-1791106066963-6hz0",
+      "regulator": "CBDT",
+      "title": "Circular No. 7/2026 : Extension of timelines for filing of various reports of audit and Income Tax Returns (ITRs) for the Assessment Year 2026-27",
+      "refNumber": "Circular No. 7/2026",
+      "publishDate": "2026-09-29",
+      "sourceUrl": "https://www.incometaxindia.gov.in/w/circular-no.-7/2026-extension-of-timelines-for-filing-of-various-reports-of-audit-and-income-tax-returns-itrs-for-the-assessment-year-2026-27?redirect=%2Fcircular-rss-feed%2F-%2Fasset_publisher%2Fbxhj%2Frss",
+      "rawText": "Circular No. 7/2026 : Extension of timelines for filing of various reports of audit and Income Tax Returns (ITRs) for the Assessment Year 2026-27 — Tue, 29 Sep 2026 01:18:00 GMT",
+      "aiSummary": "CBDT issued official circular \"Circular No. 7/2026 : Extension of timelines for filing of various reports of audit and Income Tax Returns (ITRs) for the Assessment Year 2026-27\". Regulated entities must review the mandated operational changes and compliance requirements.",
+      "impactTags": [
+        "other"
+      ],
+      "applicableEntities": [
+        "Regulated Entities",
+        "Compliance Officers"
+      ],
+      "urgency": "MEDIUM",
+      "keyActionItems": [
+        "Review circular provisions with compliance team.",
+        "Assess impact on existing operational workflows and reporting."
+      ],
+      "scrapedAt": "2026-10-04T09:27:46.963Z",
+      "isNew": true
+    },
     {
       "id": "rbi-1791103199176-55kp",
       "regulator": "RBI",
@@ -1289,7 +1529,7 @@
       "name": "SEBI Legal Circulars & Guidelines",
       "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&smid=0&ssid=7",
       "frequency": "Every 30 mins",
-      "lastScrapeTime": "2026-10-04T09:01:47.435Z",
+      "lastScrapeTime": "2026-10-04T09:27:44.947Z",
       "lastScrapeStatus": "success",
       "lastScrapeMessage": "Extracted 25 items; 0 new circular(s) ingested & summarized with Gemini.",
       "totalItemsScraped": 25
@@ -1298,44 +1538,44 @@
       "id": "src-rbi-notifications",
       "regulator": "RBI",
       "name": "RBI Notifications & Master Directions",
-      "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx",
+      "url": "https://www.rbi.org.in/notifications_rss.xml",
       "frequency": "Every 30 mins",
-      "lastScrapeTime": "2026-10-04T09:01:48.795Z",
+      "lastScrapeTime": "2026-10-04T09:27:45.988Z",
       "lastScrapeStatus": "success",
-      "lastScrapeMessage": "Extracted 20 items; 0 new circular(s) ingested & summarized with Gemini.",
-      "totalItemsScraped": 20
+      "lastScrapeMessage": "Extracted 10 items; 0 new circular(s) ingested & summarized with Gemini.",
+      "totalItemsScraped": 10
     },
     {
       "id": "src-mca-circulars",
       "regulator": "MCA",
       "name": "Ministry of Corporate Affairs Notifications & Circulars",
-      "url": "https://www.mca.gov.in/content/mca/global/en/notifications-circulars/circulars.html",
+      "url": "https://www.mca.gov.in/content/mca/global/en/home.html",
       "frequency": "Every 1 hour",
-      "lastScrapeTime": "2026-10-04T09:01:49.401Z",
-      "lastScrapeStatus": "success",
-      "lastScrapeMessage": "Extracted 0 items; 0 new circular(s) ingested & summarized with Gemini.",
+      "lastScrapeTime": "2026-10-04T09:27:46.323Z",
+      "lastScrapeStatus": "failed",
+      "lastScrapeMessage": "Scrape failed: MCA returned HTTP 403",
       "totalItemsScraped": 0
     },
     {
       "id": "src-cbdt-tax",
       "regulator": "CBDT",
       "name": "CBDT / Income Tax Circulars & Orders",
-      "url": "https://incometaxindia.gov.in/Pages/communications/circulars.aspx",
+      "url": "https://www.incometaxindia.gov.in/circular-rss-feed/-/asset_publisher/bxhj/rss",
       "frequency": "Every 1 hour",
-      "lastScrapeTime": "2026-10-04T09:01:53.281Z",
+      "lastScrapeTime": "2026-10-04T09:27:47.305Z",
       "lastScrapeStatus": "success",
-      "lastScrapeMessage": "Extracted 0 items; 0 new circular(s) ingested & summarized with Gemini.",
-      "totalItemsScraped": 0
+      "lastScrapeMessage": "Extracted 10 items; 10 new circular(s) ingested & summarized with Gemini.",
+      "totalItemsScraped": 10
     },
     {
       "id": "src-cbic-gst",
       "regulator": "CBIC",
       "name": "CBIC / GST & Customs Notifications",
-      "url": "https://cbic-gst.gov.in/notifications.html",
+      "url": "https://taxinformation.cbic.gov.in/",
       "frequency": "Every 1 hour",
-      "lastScrapeTime": "2026-10-04T09:01:54.583Z",
-      "lastScrapeStatus": "success",
-      "lastScrapeMessage": "Extracted 0 items; 0 new circular(s) ingested & summarized with Gemini.",
+      "lastScrapeTime": "2026-10-04T09:27:50.181Z",
+      "lastScrapeStatus": "failed",
+      "lastScrapeMessage": "Scrape failed: fetch failed",
       "totalItemsScraped": 0
     }
   ]
