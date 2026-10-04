@@ -17,10 +17,13 @@ import {
   Regulator,
 } from './types';
 import { Shield, Sparkles, CheckCircle2, AlertCircle, RefreshCw } from 'lucide-react';
+import { GENERATED_DB } from './data.generated';
+
+const BUNDLED_NOTIFICATIONS = GENERATED_DB.notifications as NotificationItem[];
 
 export default function App() {
   const [activeTab, setActiveTab] = useState<ActiveTab>('feed');
-  const [notifications, setNotifications] = useState<NotificationItem[]>([]);
+  const [notifications, setNotifications] = useState<NotificationItem[]>(BUNDLED_NOTIFICATIONS);
   const [savedItems, setSavedItems] = useState<SavedItem[]>([]);
   const [digest, setDigest] = useState<DailyDigest | null>(null);
   const [sources, setSources] = useState<ScraperSource[]>([]);
@@ -53,12 +56,14 @@ export default function App() {
     try {
       setLoadingFeed(true);
       const res = await fetch(`/api/notifications?ts=${Date.now()}`, { cache: 'no-store' });
+      if (!res.ok) throw new Error(`API returned ${res.status}`);
       const data = await res.json();
-      if (data.success && data.items) {
+      if (data.success && Array.isArray(data.items)) {
         setNotifications(data.items);
       }
     } catch (e) {
-      console.error('Failed to load notifications:', e);
+      console.error('Failed to load notifications API; keeping bundled feed snapshot:', e);
+      setNotifications((current) => (current.length ? current : BUNDLED_NOTIFICATIONS));
     } finally {
       setLoadingFeed(false);
     }
