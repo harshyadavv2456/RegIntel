@@ -45,13 +45,25 @@ jobs:
           const fs = require('fs');
           const input = 'data/regintel_db.json';
           const output = 'server/data.generated.ts';
+          const publicOutput = 'data/public_api.json';
           if (!fs.existsSync(input)) throw new Error('Missing data/regintel_db.json');
           const db = JSON.parse(fs.readFileSync(input, 'utf8'));
           const source =
             '// Generated from data/regintel_db.json by the RegIntel ingestion workflow. Do not edit manually.\n' +
             'export const GENERATED_DB = ' + JSON.stringify(db) + ' as const;\n';
           fs.writeFileSync(output, source);
-          console.log('Generated ' + output + ': ' + (db.notifications?.length || 0) + ' notifications');
+          const publicPayload = {
+            api: 'RegIntel Public API',
+            version: 'v1',
+            generatedAt: db.notifications?.[0]?.scrapedAt || null,
+            refreshCadence: 'Every 15 minutes',
+            coverage: ['SEBI', 'RBI', 'MCA', 'CBDT', 'CBIC'],
+            notificationCount: db.notifications?.length || 0,
+            notifications: db.notifications || [],
+            sources: db.scraperSources || []
+          };
+          fs.writeFileSync(publicOutput, JSON.stringify(publicPayload, null, 2) + '\n');
+          console.log('Generated ' + output + ' and ' + publicOutput + ': ' + (db.notifications?.length || 0) + ' notifications');
           NODE
 
       - name: Show data changes
@@ -61,6 +73,8 @@ jobs:
             wc -c data/regintel_db.json
             echo "Production snapshot:"
             wc -c server/data.generated.ts
+            echo "Public API snapshot:"
+            wc -c data/public_api.json
             git status --short
           else
             echo "::error::Scraper completed without generating data/regintel_db.json"
@@ -71,7 +85,7 @@ jobs:
         run: |
           git config user.name "regintel-bot"
           git config user.email "regintel-bot@users.noreply.github.com"
-          git add data/regintel_db.json server/data.generated.ts
+          git add data/regintel_db.json server/data.generated.ts data/public_api.json
           if git diff --cached --quiet; then
             echo "No new regulatory data."
           else
