@@ -46,21 +46,8 @@ export class CbdtScraper implements RegulatorScraper {
       console.warn('Live CBDT fetch failed or timed out:', e);
     }
 
-    if (items.length === 0) {
-      return [
-        {
-          regulator: 'CBDT',
-          title: 'Condonation of delay under Section 119(2)(b) for filing Form 10-IC and Form 10-ID for concessional corporate tax rate',
-          refNumber: 'CBDT Circular No. 04/2025 in F.No.173/32/2024-ITA-I',
-          publishDate: new Date().toISOString().split('T')[0],
-          sourceUrl: 'https://incometaxindia.gov.in/communications/circular/circular-04-2025.pdf',
-          rawText: `1. In order to mitigate genuine hardship faced by domestic corporate taxpayers, CBDT condones delay in filing Form 10-IC for claiming 22% concessional tax rate under Section 115BAA for AY 2024-25.
-2. The delay is condoned subject to condition that return of income was furnished on or before the due date specified under Section 139(1).
-3. The taxpayer must not have claimed exemptions under Chapter VI-A heading 'C' or Section 10AA in the filed return.`,
-        },
-      ];
-    }
-
+    // Never synthesize current regulatory releases when an official portal is blocked, empty, or changes structure.
+    // Zero results are returned to the orchestrator as a source-health signal instead of becoming fake feed items.
     return items;
   }
 }
