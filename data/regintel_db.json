@@ -1,6 +1,50 @@
 {
   "notifications": [
     {
+      "id": "rbi-1791353727598-5t3n",
+      "regulator": "RBI",
+      "title": "Standing Liquidity Facility for Primary Dealers",
+      "refNumber": "RBI/2026-27/281",
+      "publishDate": "2026-10-07",
+      "sourceUrl": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13726&Mode=0",
+      "rawText": "Standing Liquidity Facility for Primary Dealers — <table width=\"100%\" border=\"0\" align=\"center\" class=\"td\"><tr> <td><p>RBI/2026-27/281<br>REF.No.MPD.BC.402/07.01.279/2026-27</p> <p align=\"right\">October 7, 2026</p> <p>All Primary Dealers,</p> <p align=\"center\" class=\"head\">Standing Liquidity Facility for Primary Dealers</p> <p>As announced in the <a href=\"https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63742\" target=\"_blank\" class=\"links\">bi-monthly Monetary Policy Statement, 2026-27</a>, today, it has been decided by the Monetary Policy Committee (MPC) to increase the policy repo rate under the Liquidity Adjustment Facility (LAF) by 25 basis points from 5.25 per cent to 5.50 per cent with immediate effect.</p> <p>2. Accordingly, the Standing Liquidity Facility provided to Primary Dealers (PDs) (collateralised liquidity support) from the Reserve Bank would be available at the revised repo rate of 5.50 per cent with immediate effect.</p> <p align=\"right\">Yours faithfully,</p> <p align=\"right\">(Rekha Misra)<br> Adviser-in-Charge</p></td></tr></table> — Wed, 07 Oct 2026 11:20:00",
+      "aiSummary": "Official RBI release: Standing Liquidity Facility for Primary Dealers. See the source document for the authoritative requirements and effective dates.",
+      "impactTags": [
+        "disclosure norms"
+      ],
+      "applicableEntities": [],
+      "urgency": "HIGH",
+      "keyActionItems": [
+        "Review the official source document and identify applicability.",
+        "Confirm effective date, deadlines, and implementation requirements.",
+        "Record any required internal compliance action."
+      ],
+      "scrapedAt": "2026-10-07T06:15:27.598Z",
+      "isNew": true
+    },
+    {
+      "id": "rbi-1791353727597-93dm",
+      "regulator": "RBI",
+      "title": "Liquidity Adjustment Facility - Change in rates",
+      "refNumber": "RBI/2026-27/282",
+      "publishDate": "2026-10-07",
+      "sourceUrl": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13727&Mode=0",
+      "rawText": "Liquidity Adjustment Facility - Change in rates — <table width=\"100%\" border=\"0\" align=\"center\" class=\"td\"> <tr> <td><p>RBI/2026-27/282<br> FMOD.MAOG.No.154/01.01.001/2026-27</p> <p align=\"right\">October 07, 2026</p> <p>All Liquidity Adjustment Facility (LAF) participants</p> <p>Madam/Sir,</p> <p align=\"center\" class=\"head\">Liquidity Adjustment Facility - Change in rates</p> <p>As announced in the <a href=\"https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63742\" target=\"_blank\" class=\"links\">Monetary Policy Statement dated October 07, 2026</a>, it has been decided by the Monetary Policy Committee (MPC) to increase the policy repo rate under the Liquidity Adjustment Facility (LAF) by 25 basis points from 5.25 per cent to <span class=\"head\">5.50 per cent</span> with immediate effect.</p> <p>2. Consequently, the standing deposit facility (SDF) rate and marginal standing facility (MSF) rate stand adjusted to 5.25 per cent and 5.75 per cent respectively, with immediate effect.</p> <p>3. All other terms and conditions of the extant LAF Scheme will remain unchanged.</p> <p align=\"right\">Yours sincerely,</p> <p align=\"right\"><span class=\"head\">(G. Seshsayee)</span><br> Chief General Manager</p></td> </tr></table> — Wed, 07 Oct 2026 11:25:00",
+      "aiSummary": "Official RBI release: Liquidity Adjustment Facility - Change in rates. See the source document for the authoritative requirements and effective dates.",
+      "impactTags": [
+        "disclosure norms"
+      ],
+      "applicableEntities": [],
+      "urgency": "HIGH",
+      "keyActionItems": [
+        "Review the official source document and identify applicability.",
+        "Confirm effective date, deadlines, and implementation requirements.",
+        "Record any required internal compliance action."
+      ],
+      "scrapedAt": "2026-10-07T06:15:27.597Z",
+      "isNew": true
+    },
+    {
       "id": "cbdt-1791106067303-533b",
       "regulator": "CBDT",
       "title": "Circular No. 13 /2025 : Order under section 119 of tbe Income-tax Act, 1961 for waiver of interest payable under section 220(2) due to late payment of demand, in certain cases",
@@ -1548,7 +1592,7 @@
       "name": "SEBI Legal Circulars & Guidelines",
       "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&smid=0&ssid=7",
       "frequency": "Every 30 mins",
-      "lastScrapeTime": "2026-10-07T00:23:03.849Z",
+      "lastScrapeTime": "2026-10-07T06:15:26.459Z",
       "lastScrapeStatus": "success",
       "lastScrapeMessage": "Extracted 25 items; 0 new circular(s) ingested with deterministic source-grounded classification.",
       "totalItemsScraped": 25
@@ -1559,9 +1603,9 @@
       "name": "RBI Notifications & Master Directions",
       "url": "https://www.rbi.org.in/notifications_rss.xml",
       "frequency": "Every 30 mins",
-      "lastScrapeTime": "2026-10-07T00:23:04.881Z",
+      "lastScrapeTime": "2026-10-07T06:15:27.598Z",
       "lastScrapeStatus": "success",
-      "lastScrapeMessage": "Extracted 10 items; 0 new circular(s) ingested with deterministic source-grounded classification.",
+      "lastScrapeMessage": "Extracted 10 items; 2 new circular(s) ingested with deterministic source-grounded classification.",
       "totalItemsScraped": 10
     },
     {
@@ -1570,7 +1614,7 @@
       "name": "Ministry of Corporate Affairs Notifications & Circulars",
       "url": "https://www.mca.gov.in/content/mca/global/en/home.html",
       "frequency": "Every 1 hour",
-      "lastScrapeTime": "2026-10-07T00:23:05.346Z",
+      "lastScrapeTime": "2026-10-07T06:15:32.667Z",
       "lastScrapeStatus": "failed",
       "lastScrapeMessage": "Scrape failed: MCA returned HTTP 403",
       "totalItemsScraped": 0
@@ -1581,7 +1625,7 @@
       "name": "CBDT / Income Tax Circulars & Orders",
       "url": "https://www.incometaxindia.gov.in/circular-rss-feed/-/asset_publisher/bxhj/rss",
       "frequency": "Every 1 hour",
-      "lastScrapeTime": "2026-10-07T00:23:05.738Z",
+      "lastScrapeTime": "2026-10-07T06:15:33.277Z",
       "lastScrapeStatus": "success",
       "lastScrapeMessage": "Extracted 10 items; 0 new circular(s) ingested with deterministic source-grounded classification.",
       "totalItemsScraped": 10
@@ -1592,7 +1636,7 @@
       "name": "CBIC / GST & Customs Notifications",
       "url": "https://taxinformation.cbic.gov.in/",
       "frequency": "Every 1 hour",
-      "lastScrapeTime": "2026-10-07T00:23:08.618Z",
+      "lastScrapeTime": "2026-10-07T06:15:37.173Z",
       "lastScrapeStatus": "failed",
       "lastScrapeMessage": "Scrape failed: fetch failed",
       "totalItemsScraped": 0
