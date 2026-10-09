@@ -1,6 +1,52 @@
 {
   "notifications": [
     {
+      "id": "rbi-1791579884240-wabp",
+      "regulator": "RBI",
+      "title": "Risk Management and Inter-Bank Dealings",
+      "refNumber": "RBI/2026-27/291",
+      "publishDate": "2026-10-10",
+      "sourceUrl": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13737&Mode=0",
+      "rawText": "Risk Management and Inter-Bank Dealings — <table width=\"100%\" border=\"0\" align=\"center\" class=\"td\"><tr><td><p>RBI/2026-27/291<br> A.P. (DIR Series) Circular No. 25</p> <p align=\"right\">October 10, 2026</p> <p>To,</p> <p>All Authorised Dealers</p> <p>Madam/Sir,</p> <p class=\"head\">Risk Management and Inter-Bank Dealings</p> <p>Attention of Authorised Dealers is invited to the <a href=\"https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=10485\" target=\"_blank\" class=\"links\">Master Direction - Risk Management and Inter-Bank Dealings dated July 05, 2016</a>, as amended from time to time.</p> <p>2. In view of evolving market conditions, it has been decided as under:</p> <p class=\"head\"><em>Cancellation and rebooking / rollovers of foreign exchange derivative contracts</em></p> <p>(a) An Authorised Dealer shall not permit users to rebook any foreign exchange derivative contract involving the INR, whether deliverable or non-deliverable, which has been cancelled with any of the Authorised Dealers, after the issuance of these Directions.</p> <p>(b) An Authorised Dealer may, however, continue to permit users to rollover foreign exchange derivative contracts on maturity, subject to compliance with the provisions of the Master Direction ibid.</p> <p class=\"head\"><em>Threshold limit for taking positions without requirement to establish the existence of underlying</em></p> <p>(c) In terms of the proviso to paragraph 2.4 (i) of Section I of Part A of the Master Direction ibid, Authorised Dealers are permitted to allow users to take positions upto USD 100 million equivalent of notional value (outstanding at any point of time), across all Authorised Dealers, for hedging contracted exposure without the requirement to establish the existence of underlying exposure. Further, in terms of paragraph 3.4 (i) of Section I of Part A of the Master Direction ibid, a user is allowed to take positions (long or short), without having to establish existence of underlying exposure, upto a single limit of USD 100 million equivalent across all currency pairs involving INR, put together, and combined across all Recognized Stock Exchanges. The threshold for each of the above facilities shall, henceforth, be USD 5 million equivalent of notional value (outstanding at any point of time).</p> <p class=\"head\"><em>Requirement for Additional Documentation</em></p> <p>(d) An Authorised Dealer shall, at the time of offering a foreign exchange derivative contract involving INR to a user to hedge a contracted exposure, obtain and retain an undertaking from the user that the same underlying exposure has not been hedged with any other Authorised Dealer. Where the same exposure is being hedged in parts with more than one Authorised Dealer, the details of amounts already booked with other Authorised Dealer/s should be clearly indicated in the undertaking. This undertaking can also be obtained as a part of the deal confirmation. This shall be in addition to any other document(s) which the Authorised Dealers may call for from users in terms of paragraph 2.4 (iv) of Section I of Part A of the Master Direction ibid and for complying with the requirements of these Directions.</p> <p>3. It shall be the responsibility of an Authorised Dealer to ensure compliance of these directions including the existence of underlying exposure, for which it will take necessary documents and retain them for a period not less than two years.</p> <p>4. These Directions shall be come into force with immediate effect.</p> <p>5. These directions are issued in exercise of the powers conferred by Sections 10(4) and 11(1) of the FEMA, 1999, and Section 45W of the Reserve Bank of India Act, 1934, and are without prejudice to permissions / approvals, if any, required under any other law.</p> <p align=\"right\">Yours faithfully,</p> <p align=\"right\">(Dimple Bhandia)<br> Chief General Manager</p></td> </tr></table> — Sat, 10 Oct 2026 01:20:00",
+      "aiSummary": "Official RBI release: Risk Management and Inter-Bank Dealings. See the source document for the authoritative requirements and effective dates.",
+      "impactTags": [
+        "foreign exchange",
+        "investment products"
+      ],
+      "applicableEntities": [],
+      "urgency": "HIGH",
+      "keyActionItems": [
+        "Review the official source document and identify applicability.",
+        "Confirm effective date, deadlines, and implementation requirements.",
+        "Record any required internal compliance action."
+      ],
+      "scrapedAt": "2026-10-09T21:04:44.240Z",
+      "isNew": true
+    },
+    {
+      "id": "rbi-1791579884239-x0p7",
+      "regulator": "RBI",
+      "title": "Risk Management and Inter-Bank Dealings - Foreign Exchange Risk Reserve",
+      "refNumber": "RBI/2026-27/292",
+      "publishDate": "2026-10-10",
+      "sourceUrl": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13738&Mode=0",
+      "rawText": "Risk Management and Inter-Bank Dealings - Foreign Exchange Risk Reserve — <table width=\"100%\" border=\"0\" align=\"center\" class=\"td\"><tr><td><p>RBI/2026-27/292<br> A.P. (DIR Series) Circular No. 26</p> <p align=\"right\">October 10, 2026</p> <p>To,</p> <p>All Authorised Dealers</p> <p>Madam/Sir,</p> <p class=\"head\">Risk Management and Inter-Bank Dealings - Foreign Exchange Risk Reserve</p> <p>Attention of Authorised Dealers is invited to the <a href=\"https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=10485\" target=\"_blank\" class=\"links\">Master Direction - Risk Management and Inter-Bank Dealings dated July 05, 2016</a>, as amended from time to time.</p> <p>2. With a view to ensuring the orderly functioning of the foreign exchange market, it has been decided that:</p> <ol type=\"i\"> <li> <p>Authorised Dealers shall be required to maintain a Foreign Exchange Risk Reserve (FERR) for foreign exchange derivative contracts involving INR undertaken with users;</p> </li> <li> <p>The Reserve shall be applicable to all foreign exchange derivative contracts involving INR of notional value exceeding USD two million equivalent undertaken for the purpose of hedging current account transactions where the user is purchasing foreign currency against INR;</p> </li> <li> <p>This Reserve shall be equal to 20 per cent of the INR equivalent of the notional amount of each derivative contract; and </p> </li> <li> <p> This Reserve shall be deposited and maintained by way of cash in India with the Reserve Bank on a daily basis and shall be maintained until the termination of the contract.</p> </li> </ol> <p>3. Any attempt by users to circumvent the requirements set out in paragraph 2 (ii) <em>ibid </em>through undertaking multiple transactions with one or more Authorised Dealers shall be considered as a violation of these Directions.</p> <p>4. Authorised Dealers shall report the details of the FERR maintained on a daily basis through Centralised Information Management System (CIMS) of the Reserve Bank.</p> <p>5. These Directions shall come into force with immediate effect.</p> <p>6. These Directions are issued in exercise of the powers conferred by Sections 10(4) and 11(1) of the FEMA, 1999, and Section 45W of the Reserve Bank of India Act, 1934, and are without prejudice to permissions / approvals, if any, required under any other law.</p> <p align=\"right\">Yours faithfully,</p> <p align=\"right\">(Dimple Bhandia)<br> Chief General Manager</p></td> </tr></table> — Sat, 10 Oct 2026 01:20:00",
+      "aiSummary": "Official RBI release: Risk Management and Inter-Bank Dealings - Foreign Exchange Risk Reserve. See the source document for the authoritative requirements and effective dates.",
+      "impactTags": [
+        "foreign exchange",
+        "investment products"
+      ],
+      "applicableEntities": [],
+      "urgency": "HIGH",
+      "keyActionItems": [
+        "Review the official source document and identify applicability.",
+        "Confirm effective date, deadlines, and implementation requirements.",
+        "Record any required internal compliance action."
+      ],
+      "scrapedAt": "2026-10-09T21:04:44.239Z",
+      "isNew": true
+    },
+    {
       "id": "rbi-1791562965366-2yd6",
       "regulator": "RBI",
       "title": "Section 42(1) of the Reserve Bank of India Act, 1934 - Change in Daily Minimum Cash Reserve Maintenance Requirement",
@@ -1862,7 +1908,7 @@
       "name": "SEBI Legal Circulars & Guidelines",
       "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&smid=0&ssid=7",
       "frequency": "Every 30 mins",
-      "lastScrapeTime": "2026-10-09T16:22:44.805Z",
+      "lastScrapeTime": "2026-10-09T21:04:43.090Z",
       "lastScrapeStatus": "success",
       "lastScrapeMessage": "Extracted 25 items; 0 new circular(s) ingested with deterministic source-grounded classification.",
       "totalItemsScraped": 25
@@ -1873,9 +1919,9 @@
       "name": "RBI Notifications & Master Directions",
       "url": "https://www.rbi.org.in/notifications_rss.xml",
       "frequency": "Every 30 mins",
-      "lastScrapeTime": "2026-10-09T16:22:45.368Z",
+      "lastScrapeTime": "2026-10-09T21:04:44.241Z",
       "lastScrapeStatus": "success",
-      "lastScrapeMessage": "Extracted 10 items; 1 new circular(s) ingested with deterministic source-grounded classification.",
+      "lastScrapeMessage": "Extracted 10 items; 2 new circular(s) ingested with deterministic source-grounded classification.",
       "totalItemsScraped": 10
     },
     {
@@ -1884,7 +1930,7 @@
       "name": "Ministry of Corporate Affairs Notifications & Circulars",
       "url": "https://www.mca.gov.in/content/mca/global/en/home.html",
       "frequency": "Every 1 hour",
-      "lastScrapeTime": "2026-10-09T16:22:45.667Z",
+      "lastScrapeTime": "2026-10-09T21:04:44.552Z",
       "lastScrapeStatus": "failed",
       "lastScrapeMessage": "Scrape failed: MCA returned HTTP 403",
       "totalItemsScraped": 0
@@ -1895,7 +1941,7 @@
       "name": "CBDT / Income Tax Circulars & Orders",
       "url": "https://www.incometaxindia.gov.in/circular-rss-feed/-/asset_publisher/bxhj/rss",
       "frequency": "Every 1 hour",
-      "lastScrapeTime": "2026-10-09T16:22:45.949Z",
+      "lastScrapeTime": "2026-10-09T21:04:44.895Z",
       "lastScrapeStatus": "failed",
       "lastScrapeMessage": "Scrape failed: CBDT RSS returned HTTP 403",
       "totalItemsScraped": 10
@@ -1906,7 +1952,7 @@
       "name": "CBIC / GST & Customs Notifications",
       "url": "https://taxinformation.cbic.gov.in/",
       "frequency": "Every 1 hour",
-      "lastScrapeTime": "2026-10-09T16:22:50.129Z",
+      "lastScrapeTime": "2026-10-09T21:04:47.795Z",
       "lastScrapeStatus": "failed",
       "lastScrapeMessage": "Scrape failed: fetch failed",
       "totalItemsScraped": 0
