@@ -1,6 +1,30 @@
 {
   "notifications": [
     {
+      "id": "rbi-1791833051745-6dbw",
+      "regulator": "RBI",
+      "title": "Risk Management and Inter-Bank Dealings",
+      "refNumber": "RBI/2026-27/293",
+      "publishDate": "2026-10-12",
+      "sourceUrl": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13739&Mode=0",
+      "rawText": "Risk Management and Inter-Bank Dealings — <table width=\"100%\" border=\"0\" align=\"center\" class=\"td\"> <tr> <td><p>RBI/2026-27/293<br> A.P. (DIR Series) Circular No. 27</p> <p align=\"right\">October 12, 2026</p> <p>To,</p> <p>All Authorised Dealers</p> <p>Madam/Sir,</p> <p class=\"head\">Risk Management and Inter-Bank Dealings</p> <p>Attention of Authorised Dealers is invited to <a href=\"https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=10485\" target=\"_blank\" class=\"links\">Master Direction - Risk Management and Inter-Bank Dealings dated July 05, 2016</a>, as amended from time to time.</p> <p>2. In terms of Para 2.3 (iii) of Section I of Part A of the Master Direction ibid, Authorised Dealer Category-I banks with an operating IFSC Banking Unit and Standalone Primary Dealers authorised as Authorised Dealer Category-III may offer non deliverable derivative contracts (NDDCs) involving INR to non-resident users without any restriction in terms of purpose. On a review, it has been decided that henceforth, Authorised Dealers shall offer NDDCs involving INR to a non-resident user only for the purpose of hedging.</p> <p>3. Further, it has been decided that:</p> <ol type=\"i\"> <li> <p>An Authorised Dealer shall be required to maintain a Foreign Exchange Risk Reserve (FERR) for foreign exchange derivative contracts involving INR undertaken by it for hedging the currency risk of its own assets and liabilities;</p> </li> <li> <p>The FERR shall be applicable to all foreign exchange derivative contracts involving INR where the Authorised Dealer is purchasing foreign currency against INR;</p> </li> <li> <p>The FERR shall be equal to 20 per cent of the INR equivalent of the notional amount of each derivative contract; and</p> </li> <li> <p> The FERR shall be deposited and maintained by way of cash in India with the Reserve Bank on a daily basis and shall be maintained until the termination of the contract.</p> </li> </ol> <p>4. These Directions shall be applicable to foreign exchange derivative contracts undertaken after the issuance of these Directions.</p> <p>5. These Directions are issued in exercise of the powers conferred by Sections 10(4) and 11(1) of the FEMA, 1999, and Section 45W of the Reserve Bank of India Act, 1934, and are without prejudice to permissions / approvals, if any, required under any other law.</p> <p align=\"right\">Yours faithfully,</p> <p align=\"right\">(Dimple Bhandia)<br> Chief General Manager</p></td> </tr></table> — Mon, 12 Oct 2026 23:55:00",
+      "aiSummary": "Official RBI release: Risk Management and Inter-Bank Dealings. See the source document for the authoritative requirements and effective dates.",
+      "impactTags": [
+        "fintech & payments",
+        "foreign exchange",
+        "investment products"
+      ],
+      "applicableEntities": [],
+      "urgency": "MEDIUM",
+      "keyActionItems": [
+        "Review the official source document and identify applicability.",
+        "Confirm effective date, deadlines, and implementation requirements.",
+        "Record any required internal compliance action."
+      ],
+      "scrapedAt": "2026-10-12T19:24:11.745Z",
+      "isNew": true
+    },
+    {
       "id": "rbi-1791579884240-wabp",
       "regulator": "RBI",
       "title": "Risk Management and Inter-Bank Dealings",
@@ -1908,7 +1932,7 @@
       "name": "SEBI Legal Circulars & Guidelines",
       "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&smid=0&ssid=7",
       "frequency": "Every 30 mins",
-      "lastScrapeTime": "2026-10-12T09:46:32.626Z",
+      "lastScrapeTime": "2026-10-12T19:24:10.697Z",
       "lastScrapeStatus": "success",
       "lastScrapeMessage": "Extracted 25 items; 0 new circular(s) ingested with deterministic source-grounded classification.",
       "totalItemsScraped": 25
@@ -1919,9 +1943,9 @@
       "name": "RBI Notifications & Master Directions",
       "url": "https://www.rbi.org.in/notifications_rss.xml",
       "frequency": "Every 30 mins",
-      "lastScrapeTime": "2026-10-12T09:46:33.826Z",
+      "lastScrapeTime": "2026-10-12T19:24:11.746Z",
       "lastScrapeStatus": "success",
-      "lastScrapeMessage": "Extracted 10 items; 0 new circular(s) ingested with deterministic source-grounded classification.",
+      "lastScrapeMessage": "Extracted 10 items; 1 new circular(s) ingested with deterministic source-grounded classification.",
       "totalItemsScraped": 10
     },
     {
@@ -1930,7 +1954,7 @@
       "name": "Ministry of Corporate Affairs Notifications & Circulars",
       "url": "https://www.mca.gov.in/content/mca/global/en/home.html",
       "frequency": "Every 1 hour",
-      "lastScrapeTime": "2026-10-12T09:46:34.122Z",
+      "lastScrapeTime": "2026-10-12T19:24:12.223Z",
       "lastScrapeStatus": "failed",
       "lastScrapeMessage": "Scrape failed: MCA returned HTTP 403",
       "totalItemsScraped": 0
@@ -1941,7 +1965,7 @@
       "name": "CBDT / Income Tax Circulars & Orders",
       "url": "https://www.incometaxindia.gov.in/circular-rss-feed/-/asset_publisher/bxhj/rss",
       "frequency": "Every 1 hour",
-      "lastScrapeTime": "2026-10-12T09:46:34.466Z",
+      "lastScrapeTime": "2026-10-12T19:24:12.978Z",
       "lastScrapeStatus": "success",
       "lastScrapeMessage": "Extracted 10 items; 0 new circular(s) ingested with deterministic source-grounded classification.",
       "totalItemsScraped": 10
@@ -1952,7 +1976,7 @@
       "name": "CBIC / GST & Customs Notifications",
       "url": "https://taxinformation.cbic.gov.in/",
       "frequency": "Every 1 hour",
-      "lastScrapeTime": "2026-10-12T09:46:36.890Z",
+      "lastScrapeTime": "2026-10-12T19:24:16.036Z",
       "lastScrapeStatus": "failed",
       "lastScrapeMessage": "Scrape failed: fetch failed",
       "totalItemsScraped": 0
