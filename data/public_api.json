@@ -1,7 +1,7 @@
 {
   "api": "RegIntel Public API",
   "version": "v1",
-  "generatedAt": "2026-10-19T06:49:46.106Z",
+  "generatedAt": "2026-10-19T14:05:32.264Z",
   "refreshCadence": "Every 5 minutes",
   "coverage": [
     "SEBI",
@@ -10,8 +10,77 @@
     "CBDT",
     "CBIC"
   ],
-  "notificationCount": 80,
+  "notificationCount": 83,
   "notifications": [
+    {
+      "id": "rbi-1792418728400-x8oy",
+      "regulator": "RBI",
+      "title": "Reserve Bank of India (Commercial Banks - Miscellaneous) Second Amendment Directions, 2026",
+      "refNumber": "RBI/2026-27/294",
+      "publishDate": "2026-10-19",
+      "sourceUrl": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13740&Mode=0",
+      "rawText": "Reserve Bank of India (Commercial Banks - Miscellaneous) Second Amendment Directions, 2026 — <table width=\"100%\" border=\"0\" align=\"center\" class=\"td\"> <tr> <td><p>RBI/2026-27/294<br> DOR.MRG.REC.No.248/00-00-020/2026-27</p> <p align=\"right\">October 19, 2026 </p> <p class=\"head\" align=\"center\">Reserve Bank of India (Commercial Banks - Miscellaneous) Second Amendment Directions, 2026 </p> <p>Please refer to Section C on &lsquo;Limits for Non-Option Derivative Contracts&rsquo; of Chapter IV of the <a href=\"https://rbi.org.in/scripts/BS_ViewMasDirections.aspx?id=13136\" class=\"links\" target=\"_blank\">Reserve Bank of India (Commercial Banks - Miscellaneous) Directions, 2025</a>. </p> <p>2. On a review, and in exercise of the powers conferred by Section 35A of the Banking Regulation Act, 1949, and all other provisions / laws enabling the Reserve Bank of India (RBI) to issue instructions in this regard, the RBI being satisfied that it is necessary and expedient in the public interest so to do, hereby, issues the Amendment Directions hereinafter specified.</p> <p>3. (i) These instructions shall be called the Reserve Bank of India (Commercial Banks - Miscellaneous) Second Amendment Directions, 2026.</p> <p>(ii) The amended instructions shall come into effect immediately upon issuance.</p> <p>4. Section C on &lsquo;Limits for Non-Option Derivative Contracts&rsquo; of Chapter IV of the <a href=\"https://rbi.org.in/scripts/BS_ViewMasDirections.aspx?id=13136\" class=\"links\" target=\"_blank\">Reserve Bank of India (Commercial Banks - Miscellaneous) Directions, 2025 </a> (paragraph 37 of the Directions) stands deleted.</p> <p>(Sunil T S Nair)<br> Chief General Manager</p></td> </tr></table> — Mon, 19 Oct 2026 16:50:00",
+      "aiSummary": "Official RBI release: Reserve Bank of India (Commercial Banks - Miscellaneous) Second Amendment Directions, 2026. See the source document for the authoritative requirements and effective dates.",
+      "impactTags": [
+        "fintech & payments",
+        "investment products"
+      ],
+      "applicableEntities": [],
+      "urgency": "HIGH",
+      "keyActionItems": [
+        "Review the official source document and identify applicability.",
+        "Confirm effective date, deadlines, and implementation requirements.",
+        "Record any required internal compliance action."
+      ],
+      "scrapedAt": "2026-10-19T14:05:28.400Z",
+      "isNew": true
+    },
+    {
+      "id": "rbi-1792418728399-5qxf",
+      "regulator": "RBI",
+      "title": "Reserve Bank of India (Small Finance Banks - Miscellaneous) Amendment Directions, 2026",
+      "refNumber": "RBI/2026-27/295",
+      "publishDate": "2026-10-19",
+      "sourceUrl": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13741&Mode=0",
+      "rawText": "Reserve Bank of India (Small Finance Banks - Miscellaneous) Amendment Directions, 2026 — <table width=\"100%\" border=\"0\" align=\"center\" class=\"td\"> <tr> <td><p>RBI/2026-27/295<br> DOR.MRG.REC.No.249/00-00-020/2026-27</p> <p align=\"right\">October 19, 2026 </p> <p align=\"center\" class=\"head\">Reserve Bank of India (Small Finance Banks - Miscellaneous) Amendment Directions, 2026 </p> <p>Please refer to Section C on &lsquo;Limits for Non-Option Derivative Contracts&rsquo; of Chapter IV of the <a href=\"https://www.rbi.org.in/scripts/BS_ViewMasDirections.aspx?id=13105\" target=\"_blank\" class=\"links\">Reserve Bank of India (Small Finance Banks - Miscellaneous) Directions, 2025</a>. </p> <p>2. On a review, and in exercise of the powers conferred by section 35A of the Banking Regulation Act, 1949, and all other provisions / laws enabling the Reserve Bank of India (RBI) to issue instructions in this regard, the RBI being satisfied that it is necessary and expedient in the public interest so to do, hereby, issues the Amendment Directions hereinafter specified. </p> <p>3. (i) These instructions shall be called the Reserve Bank of India (Small Finance Banks - Miscellaneous) Amendment Directions, 2026.</p> <p>(ii) The amended instructions shall come into effect immediately upon issuance.</p> <p>4. Section C on &lsquo;Limits for Non-Option Derivative Contracts&rsquo; of Chapter IV of the <a href=\"https://www.rbi.org.in/scripts/BS_ViewMasDirections.aspx?id=13105\" target=\"_blank\" class=\"links\">Reserve Bank of India (Small Finance Banks - Miscellaneous) Directions, 2025</a> (paragraph 37 of the Directions) stands deleted. </p> <p>(Sunil T S Nair)<br> Chief General Manager</p></td> </tr></table> — Mon, 19 Oct 2026 16:50:00",
+      "aiSummary": "Official RBI release: Reserve Bank of India (Small Finance Banks - Miscellaneous) Amendment Directions, 2026. See the source document for the authoritative requirements and effective dates.",
+      "impactTags": [
+        "fintech & payments",
+        "investment products"
+      ],
+      "applicableEntities": [],
+      "urgency": "HIGH",
+      "keyActionItems": [
+        "Review the official source document and identify applicability.",
+        "Confirm effective date, deadlines, and implementation requirements.",
+        "Record any required internal compliance action."
+      ],
+      "scrapedAt": "2026-10-19T14:05:28.399Z",
+      "isNew": true
+    },
+    {
+      "id": "rbi-1792418728397-04hi",
+      "regulator": "RBI",
+      "title": "Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1267/ 1989 ISIL (Da'esh) & Al-Qaida Sanctions List: Amendment of 03 Entries",
+      "refNumber": "RBI/2026-27/296",
+      "publishDate": "2026-10-19",
+      "sourceUrl": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13742&Mode=0",
+      "rawText": "Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1267/ 1989 ISIL (Da'esh) & Al-Qaida Sanctions List: Amendment of 03 Entries — <table width=\"100%\" border=\"0\" align=\"center\" class=\"td\"> <tr> <td><p>RBI/2026-27/296<br> DoR.AML.REC.250/14.06.001/2026-27 </p> <p align=\"right\">October 19, 2026 </p> <p>The Chairpersons/ CEOs of the Commercial Banks, <br>Small Finance Banks, Payment Banks, Urban Co-operative Banks, <br>Rural Co-operative Banks, Regional Rural Banks, Local Area Banks, <br>Non-Banking Financial Companies, Asset Reconstruction Companies, <br>All India Financial Institutions</p> <p>Madam/Dear Sir</p> <p><strong>Implementation of Section 51A of UAPA, 1967: Updates to UNSC&rsquo;s 1267/ 1989 ISIL (Da'esh) &amp; Al-Qaida Sanctions List: Amendment of 03 Entries</strong></p> <p>Please refer to Chapter IX on &ldquo;Requirements/obligations under International Agreements - Communications from International Agencies&rdquo; of the Reserve Bank of India - Know Your Customer, Directions, 2025 dated November 28, 2025 (amended time to time) (&ldquo;Directions&rdquo;), as applicable, as per which, regulated entity shall ensure that in terms of section 51A of the Unlawful Activities (Prevention) (UAPA) Act, 1967 and amendments thereto, it does not have any account in the name of individuals / entities appearing in the lists of individuals and entities, suspected of having terrorist links, which are approved by and periodically circulated by the United Nations Security Council (UNSC). </p> <p>2. In this connection, Ministry of External Affairs (MEA), Government of India has informed about the UNSC press release SC/16480, dated October 15, 2026 wherein the Security Council pursuant to resolutions 1267 (1999), 1989 (2011) and 2253 (2015) concerning ISIL (Da&rsquo;esh), Al&#8209;Qaida and associated individuals, groups, undertakings and entities enacted the amendments specified with strikethrough and underline in the entries below on its ISIL (Da&rsquo;esh) and Al-Qaida Sanctions List of individuals and entities subject to the assets freeze, travel ban and arms embargo set out in paragraph 1 of Security Council resolution 2734 (2024), and adopted under Chapter VII of the Charter of the United Nations.</p> <p><strong><u>A. Individuals</u></strong></p> <p><strong>QDi.082 Name: </strong>1: MOUNIR 2: EL MOTASSADEQ 3: na 4: na<br> <strong>Name (original script): </strong><span dir=\"RTL\">&#1605;&#1606;&#1610;&#1585; &#1575;&#1604;&#1605;&#1578;&#1589;&#1583;&#1602;</span></p> <p><strong><span style=\"font-family:'Arial',sans-serif; color:#404040; \">Title: </span></strong><span style=\"font-family:'Arial',sans-serif; color:#404040; \">na<strong><span style=\"font-family:'Arial',sans-serif; \"> Designation: </span></strong>na<strong><span style=\"font-family:'Arial',sans-serif; \"> DOB: </span></strong>3 Apr. 1974<strong><span style=\"font-family:'Arial',sans-serif; \"> POB: </span></strong>Marrakesh, Morocco <strong><span style=\"font-family:'Arial',sans-serif; \">Good quality a.k.a.: </span></strong>Mounir el Moutassadeq<strong><span style=\"font-family:'Arial',sans-serif; \"> Low quality a.k.a.: </span></strong>na<strong><span style=\"font-family:'Arial',sans-serif; \"> Nationality: </span></strong>Morocco<strong><span style=\"font-family:'Arial',sans-serif; \"> Passport no: </span></strong>Morocco number H 236483<strong><span style=\"font-family:'Arial',sans-serif; \"> National identification no: </span></strong>Morocco E-491591<strong><span style=\"font-family:'Arial',sans-serif; \"> Address: </span></strong><s>(In prison in Germany)</s> <u>Marrakesh, Morocco</u><strong><span style=\"font-family:'Arial',sans-serif; \"> Listed on: </span></strong>30 Sep. 2002 ( amended on 26 Nov. 2004, 7 Sep. 2007, 23 Dec. 2010, 6 Dec. 2019, <u>15 Oct. 2026</u>) <strong><span style=\"font-family:'Arial',sans-serif; \">Review concluded on: </span></strong>20 May 2010, 4 Dec. 2019<strong><span style=\"font-family:'Arial',sans-serif; \"> Other information: </span></strong>Arrested on 28 Nov. 2001 and found guilty in Germany of being an accessory to murder and of membership in a terrorist organization and sentenced to 15 years of imprisonment on 8 Jan. 2007. <u>Deported from Germany to Morocco in October 2018. </u>Father's name is Brahim Brik. Mother&rsquo;s name is Habiba Abbes. <u>Photo available for inclusion in the INTERPOL-UN Security Council Special Notice.</u> INTERPOL-UN Security Council Special Notice: </span><a href=\"https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals#2006-21965\" target=\"_blank\" class=\"links\">https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals#2006-21965</a>.</p> <p><strong>QDi.427 Name: </strong>1: NOOR 2: WALI 3: MEHSUD 4: na<br> <strong>Title: </strong>Mufti <strong>Designation: </strong>na<strong> DOB: </strong>26 Jun. 1978<strong> POB: </strong>Gurguray, Pakistan <strong>Good quality a.k.a.: </strong>Abu Mansoor Asim<strong> Low quality a.k.a.: </strong>na<strong> Nationality: </strong>Pakistan<strong> Passport no: </strong>na<strong> National identification no: </strong>na<strong> Address: </strong>Lamman, District Barmal, Paktika Province, Afghanistan (as of 26 Nov. 2022) <strong>Listed on: </strong>16 Jul. 2020 (amended on 30 Oct. 2023, 19 Dec. 2023<u>, 15 Oct. 2026</u>) <strong>Review concluded on: </strong>30 Oct. 2023, 31 Dec. 2025 <strong>Other information: </strong>Leader of Tehrik-e Taliban Pakistan (TTP) (QDe.132) following the death of former TTP leader Maulana Fazlullah (QDi.352). <u>Photo available for inclusion in the INTERPOL-UN Security Council Special Notice. </u>INTERPOL-UN Security Council Special Notice: <a href=\"https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals\" target=\"_blank\" class=\"links\">https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals</a>.</p> <p><strong><u>B. Entities</u></strong></p> <p><strong>QDe.132 Name: </strong>TEHRIK-E TALIBAN PAKISTAN (TTP)<br> <strong>Name (original script): </strong><span dir=\"RTL\">&#1578;&#1581;&#1585;&#1740;&#1705; &#1591;&#1575;&#1604;&#1576;&#1575;&#1606; &#1662;&#1575;&#1705;&#1587;&#1578;&#1575;&#1606;</span><br> <strong>A.k.a.: a) </strong>Tehrik-I-Taliban Pakistan<strong> b) </strong>Tehrik-e-Taliban<strong> c) </strong>Pakistani Taliban<strong> d) </strong>Tehreek-e-Taliban <strong>F.k.a.: </strong>na<strong> Address: </strong>na<strong> Listed on: </strong>29 Jul. 2011 (amended on 15 Jun. 2015, 24 Nov. 2020, <u>15 Oct. 2026</u>) <strong>Review concluded on: </strong>24 Nov. 2020, 7 Nov. 2024<strong> Other information: </strong>Tehrik-e Taliban is based in the tribal areas along the Afghanistan/Pakistan border. Formed in 2007, its leader is <u>Noor Wali Mehsud (QDi.427) </u><s>Maulana Fazlullah (QDi.352)</s>. INTERPOL-UN Security Council Special Notice web link: <a href=\"https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Entities\" target=\"_blank\" class=\"links\">https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Entities</a>.</p><p>3. Press release dated October 15, 2026 regarding the above can be found at <a href=\"https://press.un.org/en/2026/sc16480.doc.htm\" target=\"_blank\" class=\"links\">https://press.un.org/en/2026/sc16480.doc.htm</a></p><p>Further, in accordance with paragraph 61 of resolution 2734 (2024), the Committee has made accessible on its website the narrative summaries of reasons for listing of the above entries at the following URL:</p><p><a href=\"https://main.un.org/securitycouncil/en/sanctions/1267/aq_sanctions_list/summaries\" target=\"_blank\" class=\"links\">https://main.un.org/securitycouncil/en/sanctions/1267/aq_sanctions_list/summaries</a></p><p>4. The details of the sanction measures and exemptions are available at the following URL: <a href=\"https://www.un.org/securitycouncil/sanctions/1267#further_information\" target=\"_blank\" class=\"links\">https://www.un.org/securitycouncil/sanctions/1267#further_information</a></p><p>5. In view of the above, regulated entities are advised to take appropriate action in terms of Chapter IX of the aforementioned Directions and strictly follow the procedure as laid down in the UAPA Order dated February 02, 2021 (amended on April 22, 2024) annexed to the Directions. </p><p>6. Updated lists of individuals and entities linked to ISIL (Da'esh), Al-Qaida and Taliban are available at:</p><p><a href=\"https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list\" target=\"_blank\" class=\"links\">www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list</a> <br> <a href=\"https://www.un.org/securitycouncil/sanctions/1988/materials\" target=\"_blank\" class=\"links\">https://www.un.org/securitycouncil/sanctions/1988/materials</a></p><p>7. Further, as per the instructions from the Ministry of Home Affairs (MHA), any request for de-listing received by any bank is to be forwarded electronically to Joint Secretary (CTCR), MHA for consideration. Individuals, groups, undertakings or entities seeking to be removed from the Security Council&rsquo;s ISIL (Da'esh) and Al-Qaida Sanctions List can submit their request for delisting to an independent and impartial Ombudsperson who has been appointed by the United Nations Secretary-General. More details are available at the following URL: <a href=\"https://www.un.org/securitycouncil/ombudsperson/application\" target=\"_blank\" class=\"links\">https://www.un.org/securitycouncil/ombudsperson/application</a></p><p>8. Regulated entities are advised to take note of the aforementioned UNSC communication and ensure meticulous compliance.</p><p>Yours faithfully</p><p>(R Sathish)<br> General Manager</p></td> </tr></table> — Mon, 19 Oct 2026 17:20:00",
+      "aiSummary": "Official RBI release: Implementation of Section 51A of UAPA, 1967: Updates to UNSC’s 1267/ 1989 ISIL (Da'esh) & Al-Qaida Sanctions List: Amendment of 03 Entries. See the source document for the authoritative requirements and effective dates.",
+      "impactTags": [
+        "AML/KYC",
+        "fintech & payments"
+      ],
+      "applicableEntities": [],
+      "urgency": "MEDIUM",
+      "keyActionItems": [
+        "Review the official source document and identify applicability.",
+        "Confirm effective date, deadlines, and implementation requirements.",
+        "Record any required internal compliance action."
+      ],
+      "scrapedAt": "2026-10-19T14:05:28.397Z",
+      "isNew": true
+    },
     {
       "id": "sebi-1792090582151-dfpz",
       "regulator": "SEBI",
@@ -1935,7 +2004,7 @@
       "name": "SEBI Legal Circulars & Guidelines",
       "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&smid=0&ssid=7",
       "frequency": "Every 30 mins",
-      "lastScrapeTime": "2026-10-19T06:49:42.093Z",
+      "lastScrapeTime": "2026-10-19T14:05:28.093Z",
       "lastScrapeStatus": "success",
       "lastScrapeMessage": "Extracted 25 items; 0 new circular(s) ingested with deterministic source-grounded classification.",
       "totalItemsScraped": 25
@@ -1946,9 +2015,9 @@
       "name": "RBI Notifications & Master Directions",
       "url": "https://www.rbi.org.in/notifications_rss.xml",
       "frequency": "Every 30 mins",
-      "lastScrapeTime": "2026-10-19T06:49:42.209Z",
+      "lastScrapeTime": "2026-10-19T14:05:28.401Z",
       "lastScrapeStatus": "success",
-      "lastScrapeMessage": "Extracted 10 items; 0 new circular(s) ingested with deterministic source-grounded classification.",
+      "lastScrapeMessage": "Extracted 10 items; 3 new circular(s) ingested with deterministic source-grounded classification.",
       "totalItemsScraped": 10
     },
     {
@@ -1957,7 +2026,7 @@
       "name": "Ministry of Corporate Affairs Notifications & Circulars",
       "url": "https://www.mca.gov.in/content/mca/global/en/home.html",
       "frequency": "Every 1 hour",
-      "lastScrapeTime": "2026-10-19T06:49:42.532Z",
+      "lastScrapeTime": "2026-10-19T14:05:28.706Z",
       "lastScrapeStatus": "failed",
       "lastScrapeMessage": "Scrape failed: MCA returned HTTP 403",
       "totalItemsScraped": 0
@@ -1968,7 +2037,7 @@
       "name": "CBDT / Income Tax Circulars & Orders",
       "url": "https://www.incometaxindia.gov.in/circular-rss-feed/-/asset_publisher/bxhj/rss",
       "frequency": "Every 1 hour",
-      "lastScrapeTime": "2026-10-19T06:49:43.188Z",
+      "lastScrapeTime": "2026-10-19T14:05:29.267Z",
       "lastScrapeStatus": "success",
       "lastScrapeMessage": "Extracted 10 items; 0 new circular(s) ingested with deterministic source-grounded classification.",
       "totalItemsScraped": 10
@@ -1979,7 +2048,7 @@
       "name": "CBIC / GST & Customs Notifications",
       "url": "https://taxinformation.cbic.gov.in/",
       "frequency": "Every 1 hour",
-      "lastScrapeTime": "2026-10-19T06:49:45.925Z",
+      "lastScrapeTime": "2026-10-19T14:05:32.157Z",
       "lastScrapeStatus": "failed",
       "lastScrapeMessage": "Scrape failed: fetch failed",
       "totalItemsScraped": 0
