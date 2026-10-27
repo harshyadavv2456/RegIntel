@@ -1,7 +1,7 @@
 {
   "api": "RegIntel Public API",
   "version": "v1",
-  "generatedAt": "2026-10-27T02:24:53.974Z",
+  "generatedAt": "2026-10-27T08:12:18.393Z",
   "refreshCadence": "Every 5 minutes",
   "coverage": [
     "SEBI",
@@ -10,8 +10,30 @@
     "CBDT",
     "CBIC"
   ],
-  "notificationCount": 89,
+  "notificationCount": 90,
   "notifications": [
+    {
+      "id": "rbi-1793088734772-94kr",
+      "regulator": "RBI",
+      "title": "Re-organisation of districts in the NCT of Delhi – Assignment and Review of Lead Bank Responsibility",
+      "refNumber": "RBI/2026-27/300",
+      "publishDate": "2026-10-27",
+      "sourceUrl": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13746&Mode=0",
+      "rawText": "Re-organisation of districts in the NCT of Delhi – Assignment and Review of Lead Bank Responsibility — <table width=\"100%\" border=\"0\" align=\"center\" class=\"td\"><tr> <td><p>RBI/2026-27/300<br> FIDD.CO.LBS.BC.No.12/02.08.001/2026-27</p> <p align=\"right\">October 26, 2026</p> <p>The Chairman / Managing Director &amp; Chief Executive Officer<br> Lead Banks concerned </p> <p>Madam/ Dear Sir,</p> <p class=\"head\">Re-organisation of districts in the NCT of Delhi &ndash; Assignment and Review of Lead Bank Responsibility</p> <p>The Government of National Capital Territory (NCT) of Delhi has notified re-organisation of districts in the NCT of Delhi vide Gazette Notification No. F.223/ SDM-II (HQ)/ Land/2025/285 dated December 25, 2025, whereby three new districts, viz., Old Delhi, Central North and Outer North have been formed and Shahdara district has ceased to exist.</p> <p>2. Lead Bank responsibilities in the newly created districts have been assigned as follows:</p> <table width=\"80%\" border=\"0\" align=\"center\" cellpadding=\"0\" cellspacing=\"1\" class=\"tablebg\"> <tr class=\"head\"> <td width=\"8%\" align=\"center\">Sr. No</td> <td width=\"20%\" align=\"center\">Newly Created District</td> <td width=\"20%\" align=\"center\">Lead Bank</td> <td width=\"52%\" align=\"center\">District Working Code</td> </tr> <tr> <td align=\"center\">1.</td> <td>Old Delhi</td> <td>Canara Bank</td> <td>03E (to be read as &lsquo;Numeral Zero, Numeral Three and Alphabet E&rsquo;)</td> </tr> <tr> <td align=\"center\">2.</td> <td>Central North</td> <td>State Bank of India</td> <td>03F (to be read as &lsquo;Numeral Zero, Numeral Three and Alphabet F&rsquo;) </td> </tr> <tr> <td align=\"center\">3.</td> <td>Outer North</td> <td>Punjab National Bank</td> <td>03G (to be read as &lsquo;Numeral Zero, Numeral Three and Alphabet G&rsquo;)</td> </tr> </table><p>3. Lead Bank responsibilities of some of the existing districts in the NCT of Delhi have been reviewed, consequent upon re-organisation and stand modified as follows:</p><table width=\"80%\" border=\"0\" align=\"center\" cellpadding=\"0\" cellspacing=\"1\" class=\"tablebg\"> <tr class=\"head\"> <td width=\"8%\" align=\"center\">Sr. No</td> <td width=\"20%\" align=\"center\">Name of District</td> <td width=\"20%\" align=\"center\">Existing Lead Bank</td> <td width=\"22%\" align=\"center\">District Working Code</td> <td width=\"30%\" align=\"center\">Newly Assigned Lead Bank</td> </tr> <tr> <td align=\"center\">1.</td> <td>Central</td> <td>Canara Bank</td> <td>358</td> <td>State Bank of India</td> </tr> <tr> <td align=\"center\">2.</td> <td>Northwest</td> <td>Punjab National Bank</td> <td>362</td> <td>Union Bank of India</td> </tr></table><p>4. As Shahdara district has ceased to exist, the Lead Bank responsibility notified in respect of the district vide <a href=\"https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=8228&Mode=0\" target=\"_blank\" class=\"links\">circular RPCD.CO.LBS.BC.No.12/02.08.001/2013-14 dated July 11, 2013</a> as follows, stands revoked:</p><table width=\"80%\" border=\"0\" align=\"center\" cellpadding=\"0\" cellspacing=\"1\" class=\"tablebg\"> <tr class=\"head\"> <td width=\"8%\" align=\"center\">Sr. No.</td> <td width=\"40%\" align=\"center\">District (Erstwhile)</td> <td width=\"30%\" align=\"center\">Lead Bank</td> <td width=\"22%\" align=\"center\">District Working Code</td> </tr> <tr> <td align=\"center\">1</td> <td>Shahdara</td> <td>Bank of Baroda</td> <td>369</td> </tr></table><p>5. In the remaining districts, the existing Lead Banks shall remain unchanged, till further communication.</p><p>Yours faithfully,</p><p>(Nisha Nambiar)<br> Chief General Manager-in-Charge</p></td></tr></table> — Tue, 27 Oct 2026 10:15:00",
+      "aiSummary": "Official RBI release: Re-organisation of districts in the NCT of Delhi – Assignment and Review of Lead Bank Responsibility. See the source document for the authoritative requirements and effective dates.",
+      "impactTags": [
+        "corporate governance"
+      ],
+      "applicableEntities": [],
+      "urgency": "MEDIUM",
+      "keyActionItems": [
+        "Review the official source document and identify applicability.",
+        "Confirm effective date, deadlines, and implementation requirements.",
+        "Record any required internal compliance action."
+      ],
+      "scrapedAt": "2026-10-27T08:12:14.772Z",
+      "isNew": true
+    },
     {
       "id": "rbi-1792765509078-0x1o",
       "regulator": "RBI",
@@ -2142,7 +2164,7 @@
       "name": "SEBI Legal Circulars & Guidelines",
       "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&smid=0&ssid=7",
       "frequency": "Every 30 mins",
-      "lastScrapeTime": "2026-10-27T02:24:49.077Z",
+      "lastScrapeTime": "2026-10-27T08:12:14.703Z",
       "lastScrapeStatus": "success",
       "lastScrapeMessage": "Extracted 25 items; 0 new circular(s) ingested with deterministic source-grounded classification.",
       "totalItemsScraped": 25
@@ -2153,9 +2175,9 @@
       "name": "RBI Notifications & Master Directions",
       "url": "https://www.rbi.org.in/notifications_rss.xml",
       "frequency": "Every 30 mins",
-      "lastScrapeTime": "2026-10-27T02:24:50.155Z",
+      "lastScrapeTime": "2026-10-27T08:12:14.774Z",
       "lastScrapeStatus": "success",
-      "lastScrapeMessage": "Extracted 10 items; 0 new circular(s) ingested with deterministic source-grounded classification.",
+      "lastScrapeMessage": "Extracted 10 items; 1 new circular(s) ingested with deterministic source-grounded classification.",
       "totalItemsScraped": 10
     },
     {
@@ -2164,7 +2186,7 @@
       "name": "Ministry of Corporate Affairs Notifications & Circulars",
       "url": "https://www.mca.gov.in/content/mca/global/en/home.html",
       "frequency": "Every 1 hour",
-      "lastScrapeTime": "2026-10-27T02:24:50.511Z",
+      "lastScrapeTime": "2026-10-27T08:12:15.145Z",
       "lastScrapeStatus": "failed",
       "lastScrapeMessage": "Scrape failed: MCA returned HTTP 403",
       "totalItemsScraped": 0
@@ -2175,7 +2197,7 @@
       "name": "CBDT / Income Tax Circulars & Orders",
       "url": "https://www.incometaxindia.gov.in/circular-rss-feed/-/asset_publisher/bxhj/rss",
       "frequency": "Every 1 hour",
-      "lastScrapeTime": "2026-10-27T02:24:50.896Z",
+      "lastScrapeTime": "2026-10-27T08:12:15.678Z",
       "lastScrapeStatus": "success",
       "lastScrapeMessage": "Extracted 10 items; 0 new circular(s) ingested with deterministic source-grounded classification.",
       "totalItemsScraped": 10
@@ -2186,7 +2208,7 @@
       "name": "CBIC / GST & Customs Notifications",
       "url": "https://taxinformation.cbic.gov.in/",
       "frequency": "Every 1 hour",
-      "lastScrapeTime": "2026-10-27T02:24:53.815Z",
+      "lastScrapeTime": "2026-10-27T08:12:18.214Z",
       "lastScrapeStatus": "failed",
       "lastScrapeMessage": "Scrape failed: fetch failed",
       "totalItemsScraped": 0
