@@ -1,6 +1,28 @@
 {
   "notifications": [
     {
+      "id": "sebi-1793111598505-4dpn",
+      "regulator": "SEBI",
+      "title": "Extension of timeline for compliance with terms and conditions by Debenture Trustees (DTs) for carrying out activities outside the purview of SEBI",
+      "refNumber": "",
+      "publishDate": "2026-10-27",
+      "sourceUrl": "https://www.sebi.gov.in/legal/circulars/oct-2026/extension-of-timeline-for-compliance-with-terms-and-conditions-by-debenture-trustees-dts-for-carrying-out-activities-outside-the-purview-of-sebi_105454.html",
+      "rawText": "Oct 27, 2026 Extension of timeline for compliance with terms and conditions by Debenture Trustees (DTs) for carrying out activities outside the purview of SEBI",
+      "aiSummary": "Official SEBI release: Extension of timeline for compliance with terms and conditions by Debenture Trustees (DTs) for carrying out activities outside the purview of SEBI. See the source document for the authoritative requirements and effective dates.",
+      "impactTags": [
+        "other"
+      ],
+      "applicableEntities": [],
+      "urgency": "MEDIUM",
+      "keyActionItems": [
+        "Review the official source document and identify applicability.",
+        "Confirm effective date, deadlines, and implementation requirements.",
+        "Record any required internal compliance action."
+      ],
+      "scrapedAt": "2026-10-27T14:33:18.505Z",
+      "isNew": true
+    },
+    {
       "id": "rbi-1793088734772-94kr",
       "regulator": "RBI",
       "title": "Re-organisation of districts in the NCT of Delhi – Assignment and Review of Lead Bank Responsibility",
@@ -2183,9 +2205,9 @@
       "name": "SEBI Legal Circulars & Guidelines",
       "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&smid=0&ssid=7",
       "frequency": "Every 30 mins",
-      "lastScrapeTime": "2026-10-27T08:12:14.703Z",
+      "lastScrapeTime": "2026-10-27T14:33:18.507Z",
       "lastScrapeStatus": "success",
-      "lastScrapeMessage": "Extracted 25 items; 0 new circular(s) ingested with deterministic source-grounded classification.",
+      "lastScrapeMessage": "Extracted 25 items; 1 new circular(s) ingested with deterministic source-grounded classification.",
       "totalItemsScraped": 25
     },
     {
@@ -2194,9 +2216,9 @@
       "name": "RBI Notifications & Master Directions",
       "url": "https://www.rbi.org.in/notifications_rss.xml",
       "frequency": "Every 30 mins",
-      "lastScrapeTime": "2026-10-27T08:12:14.774Z",
-      "lastScrapeStatus": "success",
-      "lastScrapeMessage": "Extracted 10 items; 1 new circular(s) ingested with deterministic source-grounded classification.",
+      "lastScrapeTime": "2026-10-27T14:33:18.773Z",
+      "lastScrapeStatus": "failed",
+      "lastScrapeMessage": "Scrape failed: fetch failed",
       "totalItemsScraped": 10
     },
     {
@@ -2205,7 +2227,7 @@
       "name": "Ministry of Corporate Affairs Notifications & Circulars",
       "url": "https://www.mca.gov.in/content/mca/global/en/home.html",
       "frequency": "Every 1 hour",
-      "lastScrapeTime": "2026-10-27T08:12:15.145Z",
+      "lastScrapeTime": "2026-10-27T14:33:19.196Z",
       "lastScrapeStatus": "failed",
       "lastScrapeMessage": "Scrape failed: MCA returned HTTP 403",
       "totalItemsScraped": 0
@@ -2216,7 +2238,7 @@
       "name": "CBDT / Income Tax Circulars & Orders",
       "url": "https://www.incometaxindia.gov.in/circular-rss-feed/-/asset_publisher/bxhj/rss",
       "frequency": "Every 1 hour",
-      "lastScrapeTime": "2026-10-27T08:12:15.678Z",
+      "lastScrapeTime": "2026-10-27T14:33:20.307Z",
       "lastScrapeStatus": "success",
       "lastScrapeMessage": "Extracted 10 items; 0 new circular(s) ingested with deterministic source-grounded classification.",
       "totalItemsScraped": 10
@@ -2227,7 +2249,7 @@
       "name": "CBIC / GST & Customs Notifications",
       "url": "https://taxinformation.cbic.gov.in/",
       "frequency": "Every 1 hour",
-      "lastScrapeTime": "2026-10-27T08:12:18.214Z",
+      "lastScrapeTime": "2026-10-27T14:33:22.934Z",
       "lastScrapeStatus": "failed",
       "lastScrapeMessage": "Scrape failed: fetch failed",
       "totalItemsScraped": 0
