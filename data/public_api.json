@@ -1,7 +1,7 @@
 {
   "api": "RegIntel Public API",
   "version": "v1",
-  "generatedAt": "2026-11-03T08:39:03.011Z",
+  "generatedAt": "2026-11-03T16:33:49.570Z",
   "refreshCadence": "Every 5 minutes",
   "coverage": [
     "SEBI",
@@ -10,8 +10,32 @@
     "CBDT",
     "CBIC"
   ],
-  "notificationCount": 99,
+  "notificationCount": 100,
   "notifications": [
+    {
+      "id": "rbi-1793723627026-ceu7",
+      "regulator": "RBI",
+      "title": "Foreign Exchange Management (Export and Import of Goods and Services) (Second Amendment) Regulations, 2026",
+      "refNumber": "FEMA 23(R)/(2)/2026-RB</p> <p align=\"right\" class=\"head\">November 02",
+      "publishDate": "2026-11-03",
+      "sourceUrl": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13750&Mode=0",
+      "rawText": "Foreign Exchange Management (Export and Import of Goods and Services) (Second Amendment) Regulations, 2026 — <table width=\"100%\" border=\"0\" align=\"center\" class=\"td\"> <tr> <td><p align=\"center\" class=\"head\">RESERVE BANK OF INDIA <br> FOREIGN EXCHANGE DEPARTMENT<br> CENTRAL OFFICE<br> Mumbai 400 001</p> <p class=\"head\">Notification No. FEMA 23(R)/(2)/2026-RB</p> <p align=\"right\" class=\"head\">November 02, 2026</p> <p align=\"center\" class=\"head\">Foreign Exchange Management (Export and Import of Goods and Services) (Second Amendment) Regulations, 2026</p> <p>In exercise of the powers conferred by Section 7, Section 8, sub-section (6) of Section 10 and sub-section (2) of Section 47 of the Foreign Exchange Management Act, 1999 (42 of 1999), the Reserve Bank of India makes the following amendments to the <a href=\"https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13277&Mode=0\" target=\"_blank\" class=\"links\">Foreign Exchange Management (Export and Import of Goods and Services) Regulations, 2026 [Notification No. FEMA 23(R)/2026-RB dated January 13, 2026]</a> (hereinafter referred to as 'the principal regulations'), namely: </p> <p class=\"head\">1. Short title and commencement: -</p> <p>(1) These regulations may be called the Foreign Exchange Management (Export and Import of Goods and Services) (Second Amendment) Regulations, 2026.</p> <p>(2) These regulations shall come into force from October 01, 2026. </p> <p><span class=\"head\">2.</span> In the principal regulations, in regulation 2, sub-regulation (1), after clause (d), the following shall be inserted, namely: - &ldquo;(da) &ldquo;resident individual&rdquo; means a person resident in India who is a natural person.&rdquo;</p> <p><span class=\"head\">3.1</span> In the principal regulations, in regulation 3, in sub-regulation (2), the following shall be inserted as provisos (a) and (b), namely:- </p> <p>&ldquo;(a) the exporter of services shall be deemed to have submitted the EDF when such exporter, being a resident individual, provides information required in relation to the receipt of payment for such services to the Authorised Dealer for crediting the account of the exporter.</p> <p>(b) the exporter of services shall be deemed to have submitted the EDF when such exporter, being a person other than a resident individual, provides information required in relation to the receipt of payment for such services to the Authorised Dealer for crediting the account of the exporter if the value of the inward remittance for such service is not more than &#8377;10 Lakh (or its equivalent in foreign currency).&rdquo;</p> <p><span class=\"head\">3.2</span> In the principal regulations, in regulation 3, in sub-regulation (2), the proviso numbers (a), (b) and (c), shall be renumbered as (c), (d) and (e). </p> <p class=\"head\">4. Amendment to regulation 18:-</p> <p>In the principal regulations, in regulation 18, in sub-regulation (1), in clause (d), for the words &ldquo;shall enter details of import of service, in IDPMS, as declared and submitted by the importer, within five working days of receipt of documents&rdquo;, the following shall be substituted, namely: - &ldquo;shall enter details of import of service in IDPMS, as furnished by the importer who is a person other than a resident individual and where the invoice or the contract value is more than &#8377;10 Lakh (or its equivalent in foreign currency), within five working days of receipt of details&rdquo;.</p> <p align=\"right\">(N. Senthil Kumar)<br> Chief General Manager</p><hr> <p>Footnote: The Principal Regulations, <a href=\"https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13277&Mode=0\" target=\"_blank\" class=\"links\">Notification No. FEMA 23(R)/2026-RB dated January 13, 2026</a>, were published in the Official Gazette - Extraordinary - Part-III, Section 4 on January 15, 2026 and subsequently amended, vide:</p> <p>i. <a href=\"https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13714&Mode=0\" target=\"_blank\" class=\"links\">Notification No. FEMA 23(R)/(1)/2026-RB dated September 22, 2026 [Foreign Exchange Management (Export and Import of Goods and Services) (Amendment) Regulations, 2026]</a> published in the Official Gazette of Government of India &ndash; Extraordinary &ndash; Part III, Section 4 on September 24, 2026.</p> <table width=\"80%\" border=\"0\" cellpadding=\"0\" cellspacing=\"1\" class=\"tablebg\"> <tr> <td><a href=\"https://rbidocs.rbi.org.in/rdocs/content/pdfs/FEMA23R03112026_AMEN.pdf\" target=\"_blank\" class=\"links\">Published in the Official Gazette of Government of India Extraordinary Part III, Section 4, on November 02, 2026</a></td> </tr> </table></td> </tr></table> — Tue, 03 Nov 2026 15:25:00",
+      "aiSummary": "Official RBI release: Foreign Exchange Management (Export and Import of Goods and Services) (Second Amendment) Regulations, 2026. See the source document for the authoritative requirements and effective dates.",
+      "impactTags": [
+        "corporate governance",
+        "fintech & payments",
+        "foreign exchange"
+      ],
+      "applicableEntities": [],
+      "urgency": "MEDIUM",
+      "keyActionItems": [
+        "Review the official source document and identify applicability.",
+        "Confirm effective date, deadlines, and implementation requirements.",
+        "Record any required internal compliance action."
+      ],
+      "scrapedAt": "2026-11-03T16:33:47.026Z",
+      "isNew": true
+    },
     {
       "id": "sebi-1793648244945-2e0g",
       "regulator": "SEBI",
@@ -2366,7 +2390,7 @@
       "name": "SEBI Legal Circulars & Guidelines",
       "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&smid=0&ssid=7",
       "frequency": "Every 30 mins",
-      "lastScrapeTime": "2026-11-03T08:38:57.777Z",
+      "lastScrapeTime": "2026-11-03T16:33:46.104Z",
       "lastScrapeStatus": "success",
       "lastScrapeMessage": "Extracted 25 items; 0 new circular(s) ingested with deterministic source-grounded classification.",
       "totalItemsScraped": 25
@@ -2377,9 +2401,9 @@
       "name": "RBI Notifications & Master Directions",
       "url": "https://www.rbi.org.in/notifications_rss.xml",
       "frequency": "Every 30 mins",
-      "lastScrapeTime": "2026-11-03T08:38:59.031Z",
+      "lastScrapeTime": "2026-11-03T16:33:47.029Z",
       "lastScrapeStatus": "success",
-      "lastScrapeMessage": "Extracted 10 items; 0 new circular(s) ingested with deterministic source-grounded classification.",
+      "lastScrapeMessage": "Extracted 10 items; 1 new circular(s) ingested with deterministic source-grounded classification.",
       "totalItemsScraped": 10
     },
     {
@@ -2388,7 +2412,7 @@
       "name": "Ministry of Corporate Affairs Notifications & Circulars",
       "url": "https://www.mca.gov.in/content/mca/global/en/home.html",
       "frequency": "Every 1 hour",
-      "lastScrapeTime": "2026-11-03T08:38:59.481Z",
+      "lastScrapeTime": "2026-11-03T16:33:47.390Z",
       "lastScrapeStatus": "failed",
       "lastScrapeMessage": "Scrape failed: MCA returned HTTP 403",
       "totalItemsScraped": 0
@@ -2399,7 +2423,7 @@
       "name": "CBDT / Income Tax Circulars & Orders",
       "url": "https://www.incometaxindia.gov.in/circular-rss-feed/-/asset_publisher/bxhj/rss",
       "frequency": "Every 1 hour",
-      "lastScrapeTime": "2026-11-03T08:39:00.232Z",
+      "lastScrapeTime": "2026-11-03T16:33:47.803Z",
       "lastScrapeStatus": "success",
       "lastScrapeMessage": "Extracted 10 items; 0 new circular(s) ingested with deterministic source-grounded classification.",
       "totalItemsScraped": 10
@@ -2410,7 +2434,7 @@
       "name": "CBIC / GST & Customs Notifications",
       "url": "https://taxinformation.cbic.gov.in/",
       "frequency": "Every 1 hour",
-      "lastScrapeTime": "2026-11-03T08:39:02.852Z",
+      "lastScrapeTime": "2026-11-03T16:33:49.375Z",
       "lastScrapeStatus": "failed",
       "lastScrapeMessage": "Scrape failed: fetch failed",
       "totalItemsScraped": 0
