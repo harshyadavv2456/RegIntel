@@ -1,7 +1,7 @@
 {
   "api": "RegIntel Public API",
   "version": "v1",
-  "generatedAt": "2026-11-05T02:44:56.194Z",
+  "generatedAt": "2026-11-05T09:53:35.817Z",
   "refreshCadence": "Every 5 minutes",
   "coverage": [
     "SEBI",
@@ -10,8 +10,30 @@
     "CBDT",
     "CBIC"
   ],
-  "notificationCount": 101,
+  "notificationCount": 102,
   "notifications": [
+    {
+      "id": "sebi-1793872409306-j1mu",
+      "regulator": "SEBI",
+      "title": "Revision of limits relating to requirement of underlying exposure for currency derivatives contracts",
+      "refNumber": "",
+      "publishDate": "2026-11-05",
+      "sourceUrl": "https://www.sebi.gov.in/legal/circulars/nov-2026/revision-of-limits-relating-to-requirement-of-underlying-exposure-for-currency-derivatives-contracts_105614.html",
+      "rawText": "Nov 05, 2026 Revision of limits relating to requirement of underlying exposure for currency derivatives contracts",
+      "aiSummary": "Official SEBI release: Revision of limits relating to requirement of underlying exposure for currency derivatives contracts. See the source document for the authoritative requirements and effective dates.",
+      "impactTags": [
+        "investment products"
+      ],
+      "applicableEntities": [],
+      "urgency": "LOW",
+      "keyActionItems": [
+        "Review the official source document and identify applicability.",
+        "Confirm effective date, deadlines, and implementation requirements.",
+        "Record any required internal compliance action."
+      ],
+      "scrapedAt": "2026-11-05T09:53:29.306Z",
+      "isNew": true
+    },
     {
       "id": "sebi-1793811853078-ebjd",
       "regulator": "SEBI",
@@ -2412,9 +2434,9 @@
       "name": "SEBI Legal Circulars & Guidelines",
       "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&smid=0&ssid=7",
       "frequency": "Every 30 mins",
-      "lastScrapeTime": "2026-11-05T02:44:52.859Z",
+      "lastScrapeTime": "2026-11-05T09:53:29.309Z",
       "lastScrapeStatus": "success",
-      "lastScrapeMessage": "Extracted 25 items; 0 new circular(s) ingested with deterministic source-grounded classification.",
+      "lastScrapeMessage": "Extracted 25 items; 1 new circular(s) ingested with deterministic source-grounded classification.",
       "totalItemsScraped": 25
     },
     {
@@ -2423,9 +2445,9 @@
       "name": "RBI Notifications & Master Directions",
       "url": "https://www.rbi.org.in/notifications_rss.xml",
       "frequency": "Every 30 mins",
-      "lastScrapeTime": "2026-11-05T02:44:53.561Z",
-      "lastScrapeStatus": "failed",
-      "lastScrapeMessage": "Scrape failed: RBI RSS returned HTTP 418",
+      "lastScrapeTime": "2026-11-05T09:53:30.082Z",
+      "lastScrapeStatus": "success",
+      "lastScrapeMessage": "Extracted 10 items; 0 new circular(s) ingested with deterministic source-grounded classification.",
       "totalItemsScraped": 10
     },
     {
@@ -2434,7 +2456,7 @@
       "name": "Ministry of Corporate Affairs Notifications & Circulars",
       "url": "https://www.mca.gov.in/content/mca/global/en/home.html",
       "frequency": "Every 1 hour",
-      "lastScrapeTime": "2026-11-05T02:44:53.846Z",
+      "lastScrapeTime": "2026-11-05T09:53:32.427Z",
       "lastScrapeStatus": "failed",
       "lastScrapeMessage": "Scrape failed: MCA returned HTTP 403",
       "totalItemsScraped": 0
@@ -2445,7 +2467,7 @@
       "name": "CBDT / Income Tax Circulars & Orders",
       "url": "https://www.incometaxindia.gov.in/circular-rss-feed/-/asset_publisher/bxhj/rss",
       "frequency": "Every 1 hour",
-      "lastScrapeTime": "2026-11-05T02:44:54.849Z",
+      "lastScrapeTime": "2026-11-05T09:53:32.873Z",
       "lastScrapeStatus": "success",
       "lastScrapeMessage": "Extracted 10 items; 0 new circular(s) ingested with deterministic source-grounded classification.",
       "totalItemsScraped": 10
@@ -2456,7 +2478,7 @@
       "name": "CBIC / GST & Customs Notifications",
       "url": "https://taxinformation.cbic.gov.in/",
       "frequency": "Every 1 hour",
-      "lastScrapeTime": "2026-11-05T02:44:56.117Z",
+      "lastScrapeTime": "2026-11-05T09:53:35.645Z",
       "lastScrapeStatus": "failed",
       "lastScrapeMessage": "Scrape failed: fetch failed",
       "totalItemsScraped": 0
