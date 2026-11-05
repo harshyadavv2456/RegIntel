@@ -1,7 +1,7 @@
 {
   "api": "RegIntel Public API",
   "version": "v1",
-  "generatedAt": "2026-11-05T09:53:35.817Z",
+  "generatedAt": "2026-11-05T17:48:41.394Z",
   "refreshCadence": "Every 5 minutes",
   "coverage": [
     "SEBI",
@@ -10,8 +10,74 @@
     "CBDT",
     "CBIC"
   ],
-  "notificationCount": 102,
+  "notificationCount": 105,
   "notifications": [
+    {
+      "id": "rbi-1793900916945-dl09",
+      "regulator": "RBI",
+      "title": "Master Directions on Cyber Resilience and Digital Payment Security Controls for non-bank Payment System Operators",
+      "refNumber": "",
+      "publishDate": "2026-11-05",
+      "sourceUrl": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13751&Mode=0",
+      "rawText": "Master Directions on Cyber Resilience and Digital Payment Security Controls for non-bank Payment System Operators — Thu, 05 Nov 2026 18:20:00",
+      "aiSummary": "Official RBI release: Master Directions on Cyber Resilience and Digital Payment Security Controls for non-bank Payment System Operators. See the source document for the authoritative requirements and effective dates.",
+      "impactTags": [
+        "fintech & payments"
+      ],
+      "applicableEntities": [],
+      "urgency": "LOW",
+      "keyActionItems": [
+        "Review the official source document and identify applicability.",
+        "Confirm effective date, deadlines, and implementation requirements.",
+        "Record any required internal compliance action."
+      ],
+      "scrapedAt": "2026-11-05T17:48:36.945Z",
+      "isNew": true
+    },
+    {
+      "id": "sebi-1793900916331-xnqa",
+      "regulator": "SEBI",
+      "title": "Framework for net settlement of funds for transactions undertaken by mutual fund schemes in cash market",
+      "refNumber": "",
+      "publishDate": "2026-11-05",
+      "sourceUrl": "https://www.sebi.gov.in/legal/circulars/nov-2026/framework-for-net-settlement-of-funds-for-transactions-undertaken-by-mutual-fund-schemes-in-cash-market_105616.html",
+      "rawText": "Nov 05, 2026 Framework for net settlement of funds for transactions undertaken by mutual fund schemes in cash market",
+      "aiSummary": "Official SEBI release: Framework for net settlement of funds for transactions undertaken by mutual fund schemes in cash market. See the source document for the authoritative requirements and effective dates.",
+      "impactTags": [
+        "investment products"
+      ],
+      "applicableEntities": [],
+      "urgency": "LOW",
+      "keyActionItems": [
+        "Review the official source document and identify applicability.",
+        "Confirm effective date, deadlines, and implementation requirements.",
+        "Record any required internal compliance action."
+      ],
+      "scrapedAt": "2026-11-05T17:48:36.331Z",
+      "isNew": true
+    },
+    {
+      "id": "sebi-1793900916328-daop",
+      "regulator": "SEBI",
+      "title": "Review of the framework for Accredited Investors",
+      "refNumber": "",
+      "publishDate": "2026-11-05",
+      "sourceUrl": "https://www.sebi.gov.in/legal/circulars/nov-2026/review-of-the-framework-for-accredited-investors_105618.html",
+      "rawText": "Nov 05, 2026 Review of the framework for Accredited Investors",
+      "aiSummary": "Official SEBI release: Review of the framework for Accredited Investors. See the source document for the authoritative requirements and effective dates.",
+      "impactTags": [
+        "other"
+      ],
+      "applicableEntities": [],
+      "urgency": "LOW",
+      "keyActionItems": [
+        "Review the official source document and identify applicability.",
+        "Confirm effective date, deadlines, and implementation requirements.",
+        "Record any required internal compliance action."
+      ],
+      "scrapedAt": "2026-11-05T17:48:36.328Z",
+      "isNew": true
+    },
     {
       "id": "sebi-1793872409306-j1mu",
       "regulator": "SEBI",
@@ -2434,9 +2500,9 @@
       "name": "SEBI Legal Circulars & Guidelines",
       "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&smid=0&ssid=7",
       "frequency": "Every 30 mins",
-      "lastScrapeTime": "2026-11-05T09:53:29.309Z",
+      "lastScrapeTime": "2026-11-05T17:48:36.333Z",
       "lastScrapeStatus": "success",
-      "lastScrapeMessage": "Extracted 25 items; 1 new circular(s) ingested with deterministic source-grounded classification.",
+      "lastScrapeMessage": "Extracted 25 items; 2 new circular(s) ingested with deterministic source-grounded classification.",
       "totalItemsScraped": 25
     },
     {
@@ -2445,9 +2511,9 @@
       "name": "RBI Notifications & Master Directions",
       "url": "https://www.rbi.org.in/notifications_rss.xml",
       "frequency": "Every 30 mins",
-      "lastScrapeTime": "2026-11-05T09:53:30.082Z",
+      "lastScrapeTime": "2026-11-05T17:48:36.949Z",
       "lastScrapeStatus": "success",
-      "lastScrapeMessage": "Extracted 10 items; 0 new circular(s) ingested with deterministic source-grounded classification.",
+      "lastScrapeMessage": "Extracted 10 items; 1 new circular(s) ingested with deterministic source-grounded classification.",
       "totalItemsScraped": 10
     },
     {
@@ -2456,7 +2522,7 @@
       "name": "Ministry of Corporate Affairs Notifications & Circulars",
       "url": "https://www.mca.gov.in/content/mca/global/en/home.html",
       "frequency": "Every 1 hour",
-      "lastScrapeTime": "2026-11-05T09:53:32.427Z",
+      "lastScrapeTime": "2026-11-05T17:48:37.242Z",
       "lastScrapeStatus": "failed",
       "lastScrapeMessage": "Scrape failed: MCA returned HTTP 403",
       "totalItemsScraped": 0
@@ -2467,7 +2533,7 @@
       "name": "CBDT / Income Tax Circulars & Orders",
       "url": "https://www.incometaxindia.gov.in/circular-rss-feed/-/asset_publisher/bxhj/rss",
       "frequency": "Every 1 hour",
-      "lastScrapeTime": "2026-11-05T09:53:32.873Z",
+      "lastScrapeTime": "2026-11-05T17:48:38.375Z",
       "lastScrapeStatus": "success",
       "lastScrapeMessage": "Extracted 10 items; 0 new circular(s) ingested with deterministic source-grounded classification.",
       "totalItemsScraped": 10
@@ -2478,7 +2544,7 @@
       "name": "CBIC / GST & Customs Notifications",
       "url": "https://taxinformation.cbic.gov.in/",
       "frequency": "Every 1 hour",
-      "lastScrapeTime": "2026-11-05T09:53:35.645Z",
+      "lastScrapeTime": "2026-11-05T17:48:41.200Z",
       "lastScrapeStatus": "failed",
       "lastScrapeMessage": "Scrape failed: fetch failed",
       "totalItemsScraped": 0
