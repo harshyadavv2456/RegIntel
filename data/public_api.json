@@ -1,7 +1,7 @@
 {
   "api": "RegIntel Public API",
   "version": "v1",
-  "generatedAt": "2026-11-11T05:54:32.168Z",
+  "generatedAt": "2026-11-11T13:28:43.789Z",
   "refreshCadence": "Every 5 minutes",
   "coverage": [
     "SEBI",
@@ -10,8 +10,56 @@
     "CBDT",
     "CBIC"
   ],
-  "notificationCount": 105,
+  "notificationCount": 107,
   "notifications": [
+    {
+      "id": "rbi-1794403719792-48mr",
+      "regulator": "RBI",
+      "title": "Reserve Bank of India (Domestic Money Transfer) Directions, 2026",
+      "refNumber": "RBI/DPSS/2026-27/476",
+      "publishDate": "2026-11-11",
+      "sourceUrl": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13752&Mode=0",
+      "rawText": "Reserve Bank of India (Domestic Money Transfer) Directions, 2026 — <table width=\"100%\" border=\"0\" align=\"center\" class=\"td\"><tr><td><p>RBI/DPSS/2026-27/476<br> CO.DPSS.POLC.No.S843/02-27-019/2026-2027</p> <p align=\"right\">November 11, 2026</p> <p>All Scheduled Commercial Banks, including Regional Rural Banks / Urban Co-operative Banks<br> / State Co-operative Banks / District Central Co-operative Banks / Authorised Payment System<br> Operators and Participants (Banks and Non-banks)</p> <p>Madam / Dear Sir,</p> <p align=\"center\" class=\"head\">Reserve Bank of India (Domestic Money Transfer) Directions, 2026</p> <p>With a view to harmonising and consolidating the extant instructions relating to Domestic Money Transfer (DMT), it has been decided to issue the <a href=\"#MD\" class=\"links\">Reserve Bank of India (Domestic Money Transfer) Directions, 2026</a>.</p> <p>2. These Directions are issued under Section 18 read with Section 10(2) of the Payment and Settlement Systems Act, 2007.</p> <p>Yours faithfully,</p> <p>(Sara Rajendra Kumar Neti)<br> Chief General Manager-in-Charge </p> <p>Encl.: As above</p><hr> <p align=\"center\" class=\"head\">Reserve Bank of India (Domestic Money Transfer) Directions, 2026</p> <table width=\"90%\" border=\"0\" align=\"center\" cellpadding=\"0\" cellspacing=\"1\" class=\"tablebg\"> <tr> <td align=\"center\" class=\"head\"><a id=\"MD\"></a>Table of Contents</td> </tr> <tr> <td><a href=\"#1\" class=\"links\">Chapter I &ndash; Preliminary</a></td> </tr> <tr> <td><a href=\"#2\" class=\"links\">A. Short Title and Commencement</a></td> </tr> <tr> <td><a href=\"#3\" class=\"links\">B. Applicability</a></td> </tr> <tr> <td><a href=\"#4\" class=\"links\">Chapter II &ndash; Conduct of Business</a></td> </tr> <tr> <td><a href=\"#5\" class=\"links\">C. Payment of amounts transferred from a bank account (Cash Pay-out Service)</a></td> </tr> <tr> <td><a href=\"#6\" class=\"links\">D. Payment of amounts to be credited to bank accounts (Cash Pay-in Service)</a></td> </tr> <tr> <td><a href=\"#7\" class=\"links\">E. Operational Safeguards and Monitoring</a></td> </tr> <tr> <td><a href=\"#8\" class=\"links\">F. Inter-bank Settlement</a></td> </tr> <tr> <td><a href=\"#9\" class=\"links\">G. Charges</a></td> </tr> <tr> <td><a href=\"#10\" class=\"links\">H. Customer Grievance Redressal</a></td> </tr> <tr> <td><a href=\"#11\" class=\"links\">Chapter III &ndash; Repeal</a></td> </tr> <tr> <td><a href=\"#12\" class=\"links\">I. Repeal</a></td> </tr> </table> <p>The framework for Domestic Money Transfer (DMT) was introduced by the Reserve Bank of India (RBI) with a view to facilitating small-value fund transfers through formal banking channels, particularly for persons, including migrant workers, who lack access to such channels for want of proof of identity/address. Such transfers are subject to prescribed transaction limits, monthly ceilings, monitoring and safeguards.</p> <p>In exercise of the powers conferred by Section 18 read with Section 10(2) of the Payment and Settlement Systems Act, 2007 (Act 51 of 2007), the Reserve Bank of India, being satisfied that it is necessary and expedient in the public interest so to do, hereby consolidates the extant instructions relating to Domestic Money Transfer and issues the Directions hereinafter specified.</p> <p align=\"center\" class=\"head\"><a id=\"1\"></a>Chapter I &ndash; Preliminary</p> <p class=\"head\"><a id=\"2\"></a>A. Short Title and Commencement</p> <p>1. These Directions shall be called the Reserve Bank of India (Domestic Money Transfer) Directions, 2026.</p> <p>2. These Directions shall be effective immediately.</p> <p class=\"head\"><a id=\"3\"></a>B. Applicability</p> <p>3. These Directions shall be applicable to all Scheduled Commercial Banks, including Regional Rural Banks (RRBs), Urban Co-operative Banks, State Co-operative Banks, District Central Co-operative Banks, and Authorised Payment System Operators and System Participants, to the extent applicable to the respective Domestic Money Transfer services.</p> <p>4. Card-to-card transfers shall be excluded from the purview of these Directions and shall be governed by the guidelines/approvals granted for the respective payment instruments.</p> <p class=\"head\" align=\"center\"><a id=\"4\"></a>Chapter II &ndash; Conduct of Business</p> <p class=\"head\"><a id=\"5\"></a>C. Payment of amounts transferred from a bank account (Cash Pay-out Service)</p> <p>5. Banks are permitted to provide services which facilitate transfer of funds from the accounts of their customers for delivery in cash to the recipients not having bank accounts at an ATM or through an agent appointed as Business Correspondent, or through any other authorised payment channels.</p> <p>6. The remitting bank shall obtain and keep a record of the name and address of the beneficiary.</p> <p>7. The maximum amount that may be transferred under the Cash Pay-out Service shall be &#8377;10,000 per transaction, subject to an overall monthly ceiling of &#8377;25,000 per beneficiary.</p> <p class=\"head\"><a id=\"6\"></a>D. Payment of amounts to be credited to bank accounts (Cash Pay-in Service)</p> <p>8. A walk-in customer at a bank branch can remit funds up to &#8377;50,000 to the bank account of a beneficiary through NEFT.</p> <p>9. Banks are also permitted to allow such customers to transfer funds to a bank account of a beneficiary through Business Correspondents (BCs), ATMs, etc., up to a maximum amount of &#8377;5,000 per transaction with a monthly cap of &#8377;25,000 per remitter.</p> <p>10. Remitting banks / BCs shall register the remitter based on a verified cell phone number and a self-certified Officially Valid Document (OVD), as prescribed under the applicable <a href=\"https://rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13141\" target=\"_blank\" class=\"links\">Know Your Customer Directions, 2025</a> issued by the Reserve Bank, as amended from time to time.</p> <p>11. Every transaction undertaken by a remitter shall be validated by an Additional Factor of Authentication (AFA).</p> <p>12. Remitting banks and their BCs shall comply with the applicable provisions of the Income-Tax Act, 2025, and the rules/regulations framed thereunder, as amended from time to time, pertaining to cash deposits.</p> <p>13. The remitting bank shall include the details of the remitter as part of the IMPS/NEFT transaction message.</p> <p>14. The transaction message shall include an identifier to identify the fund transfer as a cash-based remittance.</p> <p class=\"head\"><a id=\"7\"></a>E. Operational Safeguards and Monitoring</p> <p>15. Banks and non-banks, as applicable, shall put in place robust systems of safeguards, including velocity checks and alerts to customers regarding credits into accounts using the facilities provided under these Directions.</p> <p>16. Any unusual spurt in the volume of credits in a particular account or group of accounts shall be investigated immediately.</p> <p>17. Appropriate authorities shall be alerted regarding suspicious transactions.</p> <p>18. Fund transfers under these Directions are expected to be effected on a real-time or near-real-time basis.</p> <p class=\"head\"><a id=\"8\"></a>F. Inter-bank Settlement</p> <p>19. Inter-bank settlement of funds under the Domestic Money Transfer framework shall be effected using only RBI-approved payment systems.</p> <p class=\"head\"><a id=\"9\"></a>G. Charges</p> <p>20. Banks and non-banks, as applicable, may fix reasonable charges for Domestic Money Transfer services with a view to popularising the facility.</p> <p class=\"head\"><a id=\"10\"></a>H. Customer Grievance Redressal</p> <p>21. Banks and non-banks, as applicable, may put in place appropriate systems for redressal of customer grievances arising from Domestic Money Transfer services.</p> <p>22. Customer grievances under these Directions shall fall within the purview of the <a href=\"https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62052\" target=\"_blank\" class=\"links\">Reserve Bank - Integrated Ombudsman Scheme, 2026</a> as amended from time to time.</p> <p align=\"center\" class=\"head\"><a id=\"11\"></a>Chapter III &ndash; Repeal</p> <p><a id=\"12\"></a>I. With the issuance of these Directions, the following circulars issued by the Reserve Bank stand subsumed in these Directions and repealed.</p> <table width=\"90%\" border=\"0\" align=\"center\" cellpadding=\"0\" cellspacing=\"1\" class=\"tablebg\"> <tr class=\"head\"> <td width=\"5%\" align=\"center\">No.</td> <td width=\"42%\" align=\"center\">Circular number</td> <td width=\"18%\" align=\"center\">Date</td> <td width=\"35%\" align=\"center\">Subject</td> </tr> <tr> <td align=\"center\">1</td> <td><a href=\"https://rbi.org.in/scripts/FS_Notification.aspx?Id=6750&fn=9&Mode=0\" target=\"_blank\" class=\"links\">DPSS.PD.CO.No. 622/02.27.019/2011-2012</a></td> <td align=\"center\">October 5, 2011</td> <td>Domestic Money Transfer &ndash; Relaxations</td> </tr> <tr> <td align=\"center\">2</td> <td><a href=\"https://rbi.org.in/scripts/FS_Notification.aspx?Id=12707&fn=9&Mode=0\" target=\"_blank\" class=\"links\">CO.DPSS.POLC.No.S415/02.27.019/2024-25</a></td> <td align=\"center\">July 24, 2024</td> <td>Domestic Money Transfer &ndash; Review of Framework</td> </tr> </table></td></tr></table> — Wed, 11 Nov 2026 17:00:00",
+      "aiSummary": "Official RBI release: Reserve Bank of India (Domestic Money Transfer) Directions, 2026. See the source document for the authoritative requirements and effective dates.",
+      "impactTags": [
+        "tax filing",
+        "corporate governance",
+        "fintech & payments",
+        "foreign exchange"
+      ],
+      "applicableEntities": [],
+      "urgency": "HIGH",
+      "keyActionItems": [
+        "Review the official source document and identify applicability.",
+        "Confirm effective date, deadlines, and implementation requirements.",
+        "Record any required internal compliance action."
+      ],
+      "scrapedAt": "2026-11-11T13:28:39.792Z",
+      "isNew": true
+    },
+    {
+      "id": "sebi-1794403718576-tm7f",
+      "regulator": "SEBI",
+      "title": "Reporting requirement under Foreign Account Tax Compliance Act (FATCA) and Common Reporting Standard (CRS) revised through Income-Tax Act, 2025 read with Income-Tax Rules, 2026",
+      "refNumber": "",
+      "publishDate": "2026-11-11",
+      "sourceUrl": "https://www.sebi.gov.in/legal/circulars/nov-2026/reporting-requirement-under-foreign-account-tax-compliance-act-fatca-and-common-reporting-standard-crs-revised-through-income-tax-act-2025-read-with-income-tax-rules-2026_105705.html",
+      "rawText": "Nov 11, 2026 Reporting requirement under Foreign Account Tax Compliance Act (FATCA) and Common Reporting Standard (CRS) revised through Income-Tax Act, 2025 read with Income-Tax Rules, 2026",
+      "aiSummary": "Official SEBI release: Reporting requirement under Foreign Account Tax Compliance Act (FATCA) and Common Reporting Standard (CRS) revised through Income-Tax Act, 2025 read with Income-Tax Rules, 2026. See the source document for the authoritative requirements and effective dates.",
+      "impactTags": [
+        "tax filing",
+        "disclosure norms"
+      ],
+      "applicableEntities": [],
+      "urgency": "MEDIUM",
+      "keyActionItems": [
+        "Review the official source document and identify applicability.",
+        "Confirm effective date, deadlines, and implementation requirements.",
+        "Record any required internal compliance action."
+      ],
+      "scrapedAt": "2026-11-11T13:28:38.576Z",
+      "isNew": true
+    },
     {
       "id": "rbi-1793900916945-dl09",
       "regulator": "RBI",
@@ -2500,9 +2548,9 @@
       "name": "SEBI Legal Circulars & Guidelines",
       "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&smid=0&ssid=7",
       "frequency": "Every 30 mins",
-      "lastScrapeTime": "2026-11-11T05:54:28.707Z",
+      "lastScrapeTime": "2026-11-11T13:28:38.578Z",
       "lastScrapeStatus": "success",
-      "lastScrapeMessage": "Extracted 25 items; 0 new circular(s) ingested with deterministic source-grounded classification.",
+      "lastScrapeMessage": "Extracted 25 items; 1 new circular(s) ingested with deterministic source-grounded classification.",
       "totalItemsScraped": 25
     },
     {
@@ -2511,9 +2559,9 @@
       "name": "RBI Notifications & Master Directions",
       "url": "https://www.rbi.org.in/notifications_rss.xml",
       "frequency": "Every 30 mins",
-      "lastScrapeTime": "2026-11-11T05:54:28.804Z",
+      "lastScrapeTime": "2026-11-11T13:28:39.794Z",
       "lastScrapeStatus": "success",
-      "lastScrapeMessage": "Extracted 10 items; 0 new circular(s) ingested with deterministic source-grounded classification.",
+      "lastScrapeMessage": "Extracted 10 items; 1 new circular(s) ingested with deterministic source-grounded classification.",
       "totalItemsScraped": 10
     },
     {
@@ -2522,7 +2570,7 @@
       "name": "Ministry of Corporate Affairs Notifications & Circulars",
       "url": "https://www.mca.gov.in/content/mca/global/en/home.html",
       "frequency": "Every 1 hour",
-      "lastScrapeTime": "2026-11-11T05:54:28.861Z",
+      "lastScrapeTime": "2026-11-11T13:28:40.201Z",
       "lastScrapeStatus": "failed",
       "lastScrapeMessage": "Scrape failed: MCA returned HTTP 403",
       "totalItemsScraped": 0
@@ -2533,7 +2581,7 @@
       "name": "CBDT / Income Tax Circulars & Orders",
       "url": "https://www.incometaxindia.gov.in/circular-rss-feed/-/asset_publisher/bxhj/rss",
       "frequency": "Every 1 hour",
-      "lastScrapeTime": "2026-11-11T05:54:29.404Z",
+      "lastScrapeTime": "2026-11-11T13:28:40.578Z",
       "lastScrapeStatus": "success",
       "lastScrapeMessage": "Extracted 10 items; 0 new circular(s) ingested with deterministic source-grounded classification.",
       "totalItemsScraped": 10
@@ -2544,7 +2592,7 @@
       "name": "CBIC / GST & Customs Notifications",
       "url": "https://taxinformation.cbic.gov.in/",
       "frequency": "Every 1 hour",
-      "lastScrapeTime": "2026-11-11T05:54:31.927Z",
+      "lastScrapeTime": "2026-11-11T13:28:43.547Z",
       "lastScrapeStatus": "failed",
       "lastScrapeMessage": "Scrape failed: fetch failed",
       "totalItemsScraped": 0
