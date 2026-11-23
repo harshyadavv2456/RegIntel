@@ -1,7 +1,7 @@
 {
   "api": "RegIntel Public API",
   "version": "v1",
-  "generatedAt": "2026-11-23T08:37:52.845Z",
+  "generatedAt": "2026-11-23T20:32:48.021Z",
   "refreshCadence": "Every 5 minutes",
   "coverage": [
     "SEBI",
@@ -10,8 +10,99 @@
     "CBDT",
     "CBIC"
   ],
-  "notificationCount": 108,
+  "notificationCount": 112,
   "notifications": [
+    {
+      "id": "rbi-1795465964291-w0jt",
+      "regulator": "RBI",
+      "title": "Reserve Bank of India (Commercial Banks - Securitisation Transactions) Amendment Directions, 2026",
+      "refNumber": "RBI/2026-27/304",
+      "publishDate": "2026-11-23",
+      "sourceUrl": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13753&Mode=0",
+      "rawText": "Reserve Bank of India (Commercial Banks - Securitisation Transactions) Amendment Directions, 2026 — <table width=\"100%\" border=\"0\" align=\"center\" class=\"td\"> <tr> <td><p>RBI/2026-27/304<br> DOR.STR.REC.256/21-04-177/2026-27</p> <p align=\"right\">November 23, 2026</p> <p class=\"head\">Reserve Bank of India (Commercial Banks - Securitisation Transactions) Amendment Directions, 2026</p> <p>Please refer to <a href=\"https://www.rbi.org.in/scripts/BS_ViewMasDirections.aspx?id=13150\" target=\"_blank\" class=\"links\">Reserve Bank of India (Commercial Banks - Securitisation Transactions) Directions, 2025</a>.</p> <p>2. On a review, and in exercise of the powers conferred by the section 21 and 35A of the Banking Regulation Act, 1949, the Reserve Bank being satisfied that it is necessary and expedient in the public interest so to do, hereby issues the Amendment Directions hereinafter specified.</p> <p>3. The Amendment Directions shall come into effect from April 01, 2027.</p> <p>4. The Amendment Directions modify the <a href=\"https://www.rbi.org.in/scripts/BS_ViewMasDirections.aspx?id=13150\" target=\"_blank\" class=\"links\">Reserve Bank of India (Commercial Banks - Securitisation Transactions) Directions, 2025</a> as under:</p> <p>(1) Paragraph 27 shall be substituted by the following, namely:</p> <p>&ldquo;27. The issuance, holding and subsequent transfer of securitisation notes under these Directions shall only be in a dematerialised form. The minimum ticket size shall be &#8377;1 crore at the time of issuance as well as at any subsequent transfers. The originator shall ensure that the agreement with the SPE requires the latter to put in place necessary arrangements with entities such as the registrar, depository, stock exchange etc., as may be applicable, to ensure compliance with the minimum ticket-size requirement.</p> <p>Provided that securitisation notes with amortisation structures shall be permitted to be traded at amortised value, if the ticket size falls below &#8377;1 crore.</p> <p>Explanation: Ticket size, for the purpose of these directions, refers to the size of investment by a single investor.&rdquo;</p> <p>(2) Paragraph 28 shall be substituted by the following, namely:</p> <p>&ldquo;28. With respect to offer of securitisation notes to the public, Regulation 21 of SEBI (Issue and Listing of Securitised Debt Instruments and Security Receipts) Regulations, 2008, as amended from time to time, shall be complied with.&rdquo;</p> <p>(3) Paragraph 28A shall be inserted as below:</p> <p>&ldquo;28A. Transactions in securitisation notes issued prior to April 01, 2027, shall also be undertaken in compliance with the requirements mentioned in Paragraph 27 &amp; 28 above.&rdquo;</p> <p>(Vaibhav Chaturvedi)<br> Chief General Manager</p></td> </tr></table> — Mon, 23 Nov 2026 17:00:00",
+      "aiSummary": "Official RBI release: Reserve Bank of India (Commercial Banks - Securitisation Transactions) Amendment Directions, 2026. See the source document for the authoritative requirements and effective dates.",
+      "impactTags": [
+        "fintech & payments",
+        "investment products"
+      ],
+      "applicableEntities": [],
+      "urgency": "MEDIUM",
+      "keyActionItems": [
+        "Review the official source document and identify applicability.",
+        "Confirm effective date, deadlines, and implementation requirements.",
+        "Record any required internal compliance action."
+      ],
+      "scrapedAt": "2026-11-23T20:32:44.291Z",
+      "isNew": true
+    },
+    {
+      "id": "rbi-1795465964289-mi46",
+      "regulator": "RBI",
+      "title": "Reserve Bank of India (Small Finance Banks - Securitisation Transactions) Amendment Directions, 2026",
+      "refNumber": "RBI/2026-27/305",
+      "publishDate": "2026-11-23",
+      "sourceUrl": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13754&Mode=0",
+      "rawText": "Reserve Bank of India (Small Finance Banks - Securitisation Transactions) Amendment Directions, 2026 — <table width=\"100%\" border=\"0\" align=\"center\" class=\"td\"> <tr> <td><p>RBI/2026-27/305<br> DOR.STR.REC.257/21-04-177/2026-27</p> <p align=\"right\">November 23, 2026</p> <p class=\"head\">Reserve Bank of India (Small Finance Banks - Securitisation Transactions) Amendment Directions, 2026</p> <p>Please refer to <a href=\"https://www.rbi.org.in/scripts/BS_ViewMasDirections.aspx?id=13118\" target=\"_blank\" class=\"links\">Reserve Bank of India (Small Finance Banks - Securitisation Transactions) Directions, 2025</a>. </p> <p>2. On a review, and in exercise of the powers conferred by the section 21 and 35A of the Banking Regulation Act, 1949, the Reserve Bank being satisfied that it is necessary and expedient in the public interest so to do, hereby issues the Amendment Directions hereinafter specified.</p> <p>3. The Amendment Directions shall come into effect from April 01, 2027.</p> <p>4. Amendment Directions modify the <a href=\"https://www.rbi.org.in/scripts/BS_ViewMasDirections.aspx?id=13118\" target=\"_blank\" class=\"links\">Reserve Bank of India (Small Finance Banks - Securitisation Transactions) Directions, 2025</a> as under:</p> <p>(1) Para 26 shall be substituted by the following, namely:</p> <p>&ldquo;26. &ldquo;The issuance, holding and subsequent transfer of securitisation notes under these Directions shall only be in a dematerialised form. The minimum ticket size shall be &#8377;1 Crore at the time of issuance as well as at any subsequent transfers. The originator shall ensure that the agreement with the SPE requires the latter to put in place necessary arrangements with entities such as the registrar, depository, stock exchange etc., as may be applicable, to ensure compliance with the minimum ticket-size requirement.</p> <p>Provided that securitisation notes with amortisation structures shall be permitted to be traded at amortised value, if the ticket size falls below &#8377;1 crore.</p> <p>Explanation: Ticket size, for the purpose of these directions, refers to the size of investment by a single investor.&rdquo;</p> <p>(2) Para 27 shall be substituted by the following, namely:</p> <p>&ldquo;27. With respect to offer of securitisation notes to the public, Regulation 21 of SEBI (Issue and Listing of Securitised Debt Instruments and Security Receipts) Regulations, 2008, as amended from time to time, shall be complied with.&rdquo;</p> <p>(3) Paragraph 27A shall be inserted as below:</p> <p>&ldquo;27A. Transactions in securitisation notes issued prior to April 01, 2027, shall also be undertaken in compliance with the requirements mentioned in Paragraph 26 &amp; 27 above.&rdquo;</p> <p>(Vaibhav Chaturvedi)<br> Chief General Manager</p></td> </tr></table> — Mon, 23 Nov 2026 17:00:00",
+      "aiSummary": "Official RBI release: Reserve Bank of India (Small Finance Banks - Securitisation Transactions) Amendment Directions, 2026. See the source document for the authoritative requirements and effective dates.",
+      "impactTags": [
+        "fintech & payments",
+        "investment products"
+      ],
+      "applicableEntities": [],
+      "urgency": "MEDIUM",
+      "keyActionItems": [
+        "Review the official source document and identify applicability.",
+        "Confirm effective date, deadlines, and implementation requirements.",
+        "Record any required internal compliance action."
+      ],
+      "scrapedAt": "2026-11-23T20:32:44.289Z",
+      "isNew": true
+    },
+    {
+      "id": "rbi-1795465964288-pcbw",
+      "regulator": "RBI",
+      "title": "Reserve Bank of India (Non-Banking Financial Companies - Securitisation Transactions) Amendment Directions, 2026",
+      "refNumber": "RBI/2026-27/306",
+      "publishDate": "2026-11-23",
+      "sourceUrl": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13755&Mode=0",
+      "rawText": "Reserve Bank of India (Non-Banking Financial Companies - Securitisation Transactions) Amendment Directions, 2026 — <table width=\"100%\" border=\"0\" align=\"center\" class=\"td\"> <tr> <td><p>RBI/2026-27/306<br> DOR.STR.REC.258/21-04-177/2026-27</p> <p align=\"right\">November 23, 2026</p> <p class=\"head\">Reserve Bank of India (Non-Banking Financial Companies - Securitisation Transactions) Amendment Directions, 2026</p> <p>Please refer to <a href=\"https://www.rbi.org.in/scripts/BS_ViewMasDirections.aspx?id=12951\" target=\"_blank\" class=\"links\">Reserve Bank of India (Non-Banking Financial Companies - Securitisation Transactions) Directions, 2025</a>.</p> <p>2. On a review, and in exercise of the powers conferred by the Sections 45JA, 45K, 45L, 45M and 45MA of the Reserve Bank of India Act, 1934 (Act 2 of 1934), Sections 30A, 32 and 33 of the National Housing Bank Act, 1987, Sections 3, 31A and 6 of the Factoring Regulation Act, 2011 (Act 12 of 2012), the Reserve Bank being satisfied that it is necessary and expedient in the public interest so to do, hereby issues the Amendment Directions hereinafter specified.</p> <p>3. The Amendment Directions shall come into effect from April 01, 2027.</p> <p>4. The Amendment Directions modify the <a href=\"https://www.rbi.org.in/scripts/BS_ViewMasDirections.aspx?id=12951\" target=\"_blank\" class=\"links\">Reserve Bank of India (Non-Banking Financial Companies - Securitisation Transactions) Directions, 2025</a> as under:</p> <p>(1) Para 26 shall be substituted by the following, namely:</p> <p>&ldquo;26. The issuance, holding and subsequent transfer of securitisation notes under these Directions shall only be in a dematerialised form. The minimum ticket size shall be &#8377;1 Crore at the time of issuance as well as at any subsequent transfers. The originator shall ensure that the agreement with the SPE requires the latter to put in place necessary arrangements with entities such as the registrar, depository, stock exchange etc., as may be applicable, to ensure compliance with the minimum ticket-size requirement.</p> <p>Provided that securitisation notes with amortisation structures shall be permitted to be traded at amortised value, if the ticket size falls below &#8377;1 crore.</p> <p>Explanation: Ticket size, for the purpose of these Directions, refers to the size of investment by a single investor.&rdquo;</p> <p>(2) Para 27 shall be substituted by the following, namely:</p> <p>&ldquo;27. With respect to offer of securitisation notes to the public, Regulation 21 of SEBI (Issue and Listing of Securitised Debt Instruments and Security Receipts) Regulations, 2008, as amended from time to time, shall be complied with.&rdquo;</p> <p>(3) Paragraph 27A shall be inserted as below</p> <p>&ldquo;27A. Transactions in securitisation notes issued prior to April 01, 2027, shall also be undertaken in compliance with the requirements mentioned in Paragraph 26 &amp; 27 above.&rdquo;</p> <p>(Vaibhav Chaturvedi)<br> Chief General Manager</p></td> </tr></table> — Mon, 23 Nov 2026 17:00:00",
+      "aiSummary": "Official RBI release: Reserve Bank of India (Non-Banking Financial Companies - Securitisation Transactions) Amendment Directions, 2026. See the source document for the authoritative requirements and effective dates.",
+      "impactTags": [
+        "fintech & payments",
+        "investment products"
+      ],
+      "applicableEntities": [],
+      "urgency": "MEDIUM",
+      "keyActionItems": [
+        "Review the official source document and identify applicability.",
+        "Confirm effective date, deadlines, and implementation requirements.",
+        "Record any required internal compliance action."
+      ],
+      "scrapedAt": "2026-11-23T20:32:44.288Z",
+      "isNew": true
+    },
+    {
+      "id": "rbi-1795465964286-5eeq",
+      "regulator": "RBI",
+      "title": "Reserve Bank of India (All India Financial Institutions - Securitisation Transactions) Amendment Directions, 2026",
+      "refNumber": "RBI/2026-27/307",
+      "publishDate": "2026-11-23",
+      "sourceUrl": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13756&Mode=0",
+      "rawText": "Reserve Bank of India (All India Financial Institutions - Securitisation Transactions) Amendment Directions, 2026 — <table width=\"100%\" border=\"0\" align=\"center\" class=\"td\"> <tr> <td><p>RBI/2026-27/307<br> DOR.STR.REC.259/21-04-177/2026-27</p> <p align=\"right\">November 23, 2026</p> <p class=\"head\">Reserve Bank of India (All India Financial Institutions - Securitisation Transactions) Amendment Directions, 2026</p> <p>Please refer to <a href=\"https://www.rbi.org.in/scripts/BS_ViewMasDirections.aspx?id=12976\" target=\"_blank\" class=\"links\">Reserve Bank of India (All India Financial Institutions - Securitisation Transactions) Directions, 2025</a>.</p> <p>2. On a review, and in exercise of the powers conferred by the Section 45L of the Reserve Bank of India Act, 1934, the Reserve Bank being satisfied that it is necessary and expedient in the public interest so to do, hereby issues the Amendment Directions hereinafter specified.</p> <p>3. The Amendment Directions shall come into effect from April 01, 2027.</p> <p>4. The Amendment Directions modify the <a href=\"https://www.rbi.org.in/scripts/BS_ViewMasDirections.aspx?id=12976\" target=\"_blank\" class=\"links\">Reserve Bank of India (All India Financial Institutions - Securitisation Transactions) Directions, 2025</a> as under:</p> <p>(1) Para 26 shall be substituted by the following, namely:</p> <p>&ldquo;26. The issuance, holding and subsequent transfer of securitisation notes under these Directions shall only be in a dematerialised form. The minimum ticket size shall be &#8377;1 Crore at the time of issuance as well as at any subsequent transfers. The originator shall ensure that the agreement with the SPE requires the latter to put in place necessary arrangements with entities such as the registrar, depository, stock exchange etc., as may be applicable, to ensure compliance with the minimum ticket-size requirement.</p> <p>Provided that securitisation notes with amortisation structures shall be permitted to be traded at amortised value, if the ticket size falls below &#8377;1 crore.</p> <p>Explanation: Ticket size, for the purpose of these directions, refers to the size of investment by a single investor.&rdquo;</p> <p>(2) Para 27 shall be substituted by the following, namely:</p> <p>&ldquo;27. With respect to offer of securitisation notes to the public, Regulation 21 of SEBI (Issue and Listing of Securitised Debt Instruments and Security Receipts) Regulations, 2008, as amended from time to time, shall be complied with.&rdquo;</p> <p>(3) Paragraph 27A shall be inserted as below:</p> <p>&ldquo;27A. Transactions in securitisation notes issued prior to April 01, 2027, shall also be undertaken in compliance with the requirements mentioned in Paragraph 26 &amp; 27 above.&rdquo;</p> <p>(Vaibhav Chaturvedi)<br> Chief General Manager</p></td> </tr></table> — Mon, 23 Nov 2026 17:00:00",
+      "aiSummary": "Official RBI release: Reserve Bank of India (All India Financial Institutions - Securitisation Transactions) Amendment Directions, 2026. See the source document for the authoritative requirements and effective dates.",
+      "impactTags": [
+        "investment products"
+      ],
+      "applicableEntities": [],
+      "urgency": "MEDIUM",
+      "keyActionItems": [
+        "Review the official source document and identify applicability.",
+        "Confirm effective date, deadlines, and implementation requirements.",
+        "Record any required internal compliance action."
+      ],
+      "scrapedAt": "2026-11-23T20:32:44.286Z",
+      "isNew": true
+    },
     {
       "id": "sebi-1794927011013-oxw6",
       "regulator": "SEBI",
@@ -2571,7 +2662,7 @@
       "name": "SEBI Legal Circulars & Guidelines",
       "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&smid=0&ssid=7",
       "frequency": "Every 30 mins",
-      "lastScrapeTime": "2026-11-23T08:37:44.720Z",
+      "lastScrapeTime": "2026-11-23T20:32:44.154Z",
       "lastScrapeStatus": "success",
       "lastScrapeMessage": "Extracted 25 items; 0 new circular(s) ingested with deterministic source-grounded classification.",
       "totalItemsScraped": 25
@@ -2582,9 +2673,9 @@
       "name": "RBI Notifications & Master Directions",
       "url": "https://www.rbi.org.in/notifications_rss.xml",
       "frequency": "Every 30 mins",
-      "lastScrapeTime": "2026-11-23T08:37:45.882Z",
+      "lastScrapeTime": "2026-11-23T20:32:44.293Z",
       "lastScrapeStatus": "success",
-      "lastScrapeMessage": "Extracted 10 items; 0 new circular(s) ingested with deterministic source-grounded classification.",
+      "lastScrapeMessage": "Extracted 10 items; 4 new circular(s) ingested with deterministic source-grounded classification.",
       "totalItemsScraped": 10
     },
     {
@@ -2593,7 +2684,7 @@
       "name": "Ministry of Corporate Affairs Notifications & Circulars",
       "url": "https://www.mca.gov.in/content/mca/global/en/home.html",
       "frequency": "Every 1 hour",
-      "lastScrapeTime": "2026-11-23T08:37:48.997Z",
+      "lastScrapeTime": "2026-11-23T20:32:44.700Z",
       "lastScrapeStatus": "failed",
       "lastScrapeMessage": "Scrape failed: MCA returned HTTP 403",
       "totalItemsScraped": 0
@@ -2604,7 +2695,7 @@
       "name": "CBDT / Income Tax Circulars & Orders",
       "url": "https://www.incometaxindia.gov.in/circular-rss-feed/-/asset_publisher/bxhj/rss",
       "frequency": "Every 1 hour",
-      "lastScrapeTime": "2026-11-23T08:37:49.679Z",
+      "lastScrapeTime": "2026-11-23T20:32:45.221Z",
       "lastScrapeStatus": "success",
       "lastScrapeMessage": "Extracted 10 items; 0 new circular(s) ingested with deterministic source-grounded classification.",
       "totalItemsScraped": 10
@@ -2615,7 +2706,7 @@
       "name": "CBIC / GST & Customs Notifications",
       "url": "https://taxinformation.cbic.gov.in/",
       "frequency": "Every 1 hour",
-      "lastScrapeTime": "2026-11-23T08:37:52.625Z",
+      "lastScrapeTime": "2026-11-23T20:32:47.873Z",
       "lastScrapeStatus": "failed",
       "lastScrapeMessage": "Scrape failed: fetch failed",
       "totalItemsScraped": 0
