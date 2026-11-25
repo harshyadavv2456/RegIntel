@@ -1,6 +1,51 @@
 {
   "notifications": [
     {
+      "id": "sebi-1795632229267-06ci",
+      "regulator": "SEBI",
+      "title": "Simplification of client on-boarding and rationalisation of risk management framework at KYC Registration Agencies",
+      "refNumber": "",
+      "publishDate": "2026-11-25",
+      "sourceUrl": "https://www.sebi.gov.in/legal/circulars/nov-2026/simplification-of-client-on-boarding-and-rationalisation-of-risk-management-framework-at-kyc-registration-agencies_105839.html",
+      "rawText": "Nov 25, 2026 Simplification of client on-boarding and rationalisation of risk management framework at KYC Registration Agencies",
+      "aiSummary": "Official SEBI release: Simplification of client on-boarding and rationalisation of risk management framework at KYC Registration Agencies. See the source document for the authoritative requirements and effective dates.",
+      "impactTags": [
+        "AML/KYC",
+        "corporate governance"
+      ],
+      "applicableEntities": [],
+      "urgency": "LOW",
+      "keyActionItems": [
+        "Review the official source document and identify applicability.",
+        "Confirm effective date, deadlines, and implementation requirements.",
+        "Record any required internal compliance action."
+      ],
+      "scrapedAt": "2026-11-25T18:43:49.267Z",
+      "isNew": true
+    },
+    {
+      "id": "sebi-1795632229265-fbx9",
+      "regulator": "SEBI",
+      "title": "Half-yearly review of -Significant Indices- under SEBI (Index Providers) Regulations, 2024",
+      "refNumber": "",
+      "publishDate": "2026-11-25",
+      "sourceUrl": "https://www.sebi.gov.in/legal/circulars/nov-2026/half-yearly-review-of-significant-indices-under-sebi-index-providers-regulations-2024_105853.html",
+      "rawText": "Nov 25, 2026 Half-yearly review of -Significant Indices- under SEBI (Index Providers) Regulations, 2024",
+      "aiSummary": "Official SEBI release: Half-yearly review of -Significant Indices- under SEBI (Index Providers) Regulations, 2024. See the source document for the authoritative requirements and effective dates.",
+      "impactTags": [
+        "other"
+      ],
+      "applicableEntities": [],
+      "urgency": "LOW",
+      "keyActionItems": [
+        "Review the official source document and identify applicability.",
+        "Confirm effective date, deadlines, and implementation requirements.",
+        "Record any required internal compliance action."
+      ],
+      "scrapedAt": "2026-11-25T18:43:49.265Z",
+      "isNew": true
+    },
+    {
       "id": "rbi-1795465964291-w0jt",
       "regulator": "RBI",
       "title": "Reserve Bank of India (Commercial Banks - Securitisation Transactions) Amendment Directions, 2026",
@@ -2681,9 +2726,9 @@
       "name": "SEBI Legal Circulars & Guidelines",
       "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&smid=0&ssid=7",
       "frequency": "Every 30 mins",
-      "lastScrapeTime": "2026-11-25T08:22:20.382Z",
+      "lastScrapeTime": "2026-11-25T18:43:49.269Z",
       "lastScrapeStatus": "success",
-      "lastScrapeMessage": "Extracted 25 items; 0 new circular(s) ingested with deterministic source-grounded classification.",
+      "lastScrapeMessage": "Extracted 25 items; 2 new circular(s) ingested with deterministic source-grounded classification.",
       "totalItemsScraped": 25
     },
     {
@@ -2692,7 +2737,7 @@
       "name": "RBI Notifications & Master Directions",
       "url": "https://www.rbi.org.in/notifications_rss.xml",
       "frequency": "Every 30 mins",
-      "lastScrapeTime": "2026-11-25T08:22:21.406Z",
+      "lastScrapeTime": "2026-11-25T18:43:49.333Z",
       "lastScrapeStatus": "success",
       "lastScrapeMessage": "Extracted 10 items; 0 new circular(s) ingested with deterministic source-grounded classification.",
       "totalItemsScraped": 10
@@ -2703,7 +2748,7 @@
       "name": "Ministry of Corporate Affairs Notifications & Circulars",
       "url": "https://www.mca.gov.in/content/mca/global/en/home.html",
       "frequency": "Every 1 hour",
-      "lastScrapeTime": "2026-11-25T08:22:21.735Z",
+      "lastScrapeTime": "2026-11-25T18:43:50.014Z",
       "lastScrapeStatus": "failed",
       "lastScrapeMessage": "Scrape failed: MCA returned HTTP 403",
       "totalItemsScraped": 0
@@ -2714,7 +2759,7 @@
       "name": "CBDT / Income Tax Circulars & Orders",
       "url": "https://www.incometaxindia.gov.in/circular-rss-feed/-/asset_publisher/bxhj/rss",
       "frequency": "Every 1 hour",
-      "lastScrapeTime": "2026-11-25T08:22:22.414Z",
+      "lastScrapeTime": "2026-11-25T18:43:50.090Z",
       "lastScrapeStatus": "success",
       "lastScrapeMessage": "Extracted 10 items; 0 new circular(s) ingested with deterministic source-grounded classification.",
       "totalItemsScraped": 10
@@ -2725,7 +2770,7 @@
       "name": "CBIC / GST & Customs Notifications",
       "url": "https://taxinformation.cbic.gov.in/",
       "frequency": "Every 1 hour",
-      "lastScrapeTime": "2026-11-25T08:22:25.549Z",
+      "lastScrapeTime": "2026-11-25T18:43:51.468Z",
       "lastScrapeStatus": "failed",
       "lastScrapeMessage": "Scrape failed: fetch failed",
       "totalItemsScraped": 0
