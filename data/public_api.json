@@ -1,7 +1,7 @@
 {
   "api": "RegIntel Public API",
   "version": "v1",
-  "generatedAt": "2026-11-27T11:17:44.559Z",
+  "generatedAt": "2026-11-27T20:03:45.175Z",
   "refreshCadence": "Every 5 minutes",
   "coverage": [
     "SEBI",
@@ -10,8 +10,228 @@
     "CBDT",
     "CBIC"
   ],
-  "notificationCount": 116,
+  "notificationCount": 126,
   "notifications": [
+    {
+      "id": "rbi-1795809821590-x9hl",
+      "regulator": "RBI",
+      "title": "Section 42(1) of the Reserve Bank of India Act, 1934 - Change in Daily Minimum Cash Reserve Maintenance Requirement",
+      "refNumber": "RBI/2026-27/310",
+      "publishDate": "2026-11-27",
+      "sourceUrl": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13759&Mode=0",
+      "rawText": "Section 42(1) of the Reserve Bank of India Act, 1934 - Change in Daily Minimum Cash Reserve Maintenance Requirement — <table width=\"100%\" border=\"0\" align=\"center\" class=\"td\"> <tr> <td><p>RBI/2026-27/310 <br>DoR.RET.REC.262/12.01.001/2026-27</p> <p align=\"right\">November 27, 2026</p> <p>All Scheduled Banks,</p> <p>Madam / Sir,</p> <p class=\"head\">Section 42(1) of the Reserve Bank of India Act, 1934 - Change in Daily Minimum Cash Reserve Maintenance Requirement</p> <p>Please refer to our <a href=\"https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13736&Mode=0\" target=\"_blank\" class=\"links\">circular DoR.RET.REC.247/12.01.001/2026-27 dated October 09, 2026</a> on the captioned subject.</p> <p>2. On the basis of an assessment of the current and evolving macroeconomic situation and liquidity conditions, it has been decided to reduce the minimum daily maintenance of the cash reserve ratio (CRR) from 99 per cent of the requirement to 90 per cent effective from the fortnight beginning December 1, 2026.</p> <p>Yours faithfully,</p> <p>(J P Sharma)<br> Chief General Manager-in-Charge</p></td> </tr></table> — Fri, 27 Nov 2026 16:55:00",
+      "aiSummary": "Official RBI release: Section 42(1) of the Reserve Bank of India Act, 1934 - Change in Daily Minimum Cash Reserve Maintenance Requirement. See the source document for the authoritative requirements and effective dates.",
+      "impactTags": [
+        "tax filing"
+      ],
+      "applicableEntities": [],
+      "urgency": "MEDIUM",
+      "keyActionItems": [
+        "Review the official source document and identify applicability.",
+        "Confirm effective date, deadlines, and implementation requirements.",
+        "Record any required internal compliance action."
+      ],
+      "scrapedAt": "2026-11-27T20:03:41.590Z",
+      "isNew": true
+    },
+    {
+      "id": "rbi-1795809821588-otso",
+      "regulator": "RBI",
+      "title": "Reserve Bank of India (Digital Payments – Card-based transaction) Directions, 2026",
+      "refNumber": "",
+      "publishDate": "2026-11-27",
+      "sourceUrl": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13760&Mode=0",
+      "rawText": "Reserve Bank of India (Digital Payments – Card-based transaction) Directions, 2026 — Fri, 27 Nov 2026 17:30:00",
+      "aiSummary": "Official RBI release: Reserve Bank of India (Digital Payments – Card-based transaction) Directions, 2026. See the source document for the authoritative requirements and effective dates.",
+      "impactTags": [
+        "fintech & payments"
+      ],
+      "applicableEntities": [],
+      "urgency": "LOW",
+      "keyActionItems": [
+        "Review the official source document and identify applicability.",
+        "Confirm effective date, deadlines, and implementation requirements.",
+        "Record any required internal compliance action."
+      ],
+      "scrapedAt": "2026-11-27T20:03:41.588Z",
+      "isNew": true
+    },
+    {
+      "id": "rbi-1795809821586-rjn2",
+      "regulator": "RBI",
+      "title": "Reserve Bank of India (Cash Withdrawal Transactions through Automated Teller Machines and Point of Sale Terminals) Directions, 2026",
+      "refNumber": "",
+      "publishDate": "2026-11-27",
+      "sourceUrl": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13761&Mode=0",
+      "rawText": "Reserve Bank of India (Cash Withdrawal Transactions through Automated Teller Machines and Point of Sale Terminals) Directions, 2026 — Fri, 27 Nov 2026 17:30:00",
+      "aiSummary": "Official RBI release: Reserve Bank of India (Cash Withdrawal Transactions through Automated Teller Machines and Point of Sale Terminals) Directions, 2026. See the source document for the authoritative requirements and effective dates.",
+      "impactTags": [
+        "other"
+      ],
+      "applicableEntities": [],
+      "urgency": "LOW",
+      "keyActionItems": [
+        "Review the official source document and identify applicability.",
+        "Confirm effective date, deadlines, and implementation requirements.",
+        "Record any required internal compliance action."
+      ],
+      "scrapedAt": "2026-11-27T20:03:41.586Z",
+      "isNew": true
+    },
+    {
+      "id": "rbi-1795809821584-tstl",
+      "regulator": "RBI",
+      "title": "Reserve Bank of India (White Label ATM Operators) Directions, 2026",
+      "refNumber": "",
+      "publishDate": "2026-11-27",
+      "sourceUrl": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13762&Mode=0",
+      "rawText": "Reserve Bank of India (White Label ATM Operators) Directions, 2026 — Fri, 27 Nov 2026 17:30:00",
+      "aiSummary": "Official RBI release: Reserve Bank of India (White Label ATM Operators) Directions, 2026. See the source document for the authoritative requirements and effective dates.",
+      "impactTags": [
+        "other"
+      ],
+      "applicableEntities": [],
+      "urgency": "LOW",
+      "keyActionItems": [
+        "Review the official source document and identify applicability.",
+        "Confirm effective date, deadlines, and implementation requirements.",
+        "Record any required internal compliance action."
+      ],
+      "scrapedAt": "2026-11-27T20:03:41.584Z",
+      "isNew": true
+    },
+    {
+      "id": "rbi-1795809821582-4bvh",
+      "regulator": "RBI",
+      "title": "Reserve Bank of India (Commercial Banks - Know Your Customer) Second Amendment Directions, 2026",
+      "refNumber": "",
+      "publishDate": "2026-11-27",
+      "sourceUrl": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13763&Mode=0",
+      "rawText": "Reserve Bank of India (Commercial Banks - Know Your Customer) Second Amendment Directions, 2026 — Fri, 27 Nov 2026 20:45:00",
+      "aiSummary": "Official RBI release: Reserve Bank of India (Commercial Banks - Know Your Customer) Second Amendment Directions, 2026. See the source document for the authoritative requirements and effective dates.",
+      "impactTags": [
+        "other"
+      ],
+      "applicableEntities": [],
+      "urgency": "LOW",
+      "keyActionItems": [
+        "Review the official source document and identify applicability.",
+        "Confirm effective date, deadlines, and implementation requirements.",
+        "Record any required internal compliance action."
+      ],
+      "scrapedAt": "2026-11-27T20:03:41.582Z",
+      "isNew": true
+    },
+    {
+      "id": "rbi-1795809821577-af90",
+      "regulator": "RBI",
+      "title": "Reserve Bank of India (Small Finance Banks - Know Your Customer) Second Amendment Directions, 2026",
+      "refNumber": "",
+      "publishDate": "2026-11-27",
+      "sourceUrl": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13764&Mode=0",
+      "rawText": "Reserve Bank of India (Small Finance Banks - Know Your Customer) Second Amendment Directions, 2026 — Fri, 27 Nov 2026 20:45:00",
+      "aiSummary": "Official RBI release: Reserve Bank of India (Small Finance Banks - Know Your Customer) Second Amendment Directions, 2026. See the source document for the authoritative requirements and effective dates.",
+      "impactTags": [
+        "other"
+      ],
+      "applicableEntities": [],
+      "urgency": "LOW",
+      "keyActionItems": [
+        "Review the official source document and identify applicability.",
+        "Confirm effective date, deadlines, and implementation requirements.",
+        "Record any required internal compliance action."
+      ],
+      "scrapedAt": "2026-11-27T20:03:41.577Z",
+      "isNew": true
+    },
+    {
+      "id": "rbi-1795809821575-els8",
+      "regulator": "RBI",
+      "title": "Reserve Bank of India (Local Area Banks - Know Your Customer) Second Amendment Directions, 2026",
+      "refNumber": "",
+      "publishDate": "2026-11-27",
+      "sourceUrl": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13765&Mode=0",
+      "rawText": "Reserve Bank of India (Local Area Banks - Know Your Customer) Second Amendment Directions, 2026 — Fri, 27 Nov 2026 20:45:00",
+      "aiSummary": "Official RBI release: Reserve Bank of India (Local Area Banks - Know Your Customer) Second Amendment Directions, 2026. See the source document for the authoritative requirements and effective dates.",
+      "impactTags": [
+        "other"
+      ],
+      "applicableEntities": [],
+      "urgency": "LOW",
+      "keyActionItems": [
+        "Review the official source document and identify applicability.",
+        "Confirm effective date, deadlines, and implementation requirements.",
+        "Record any required internal compliance action."
+      ],
+      "scrapedAt": "2026-11-27T20:03:41.575Z",
+      "isNew": true
+    },
+    {
+      "id": "rbi-1795809821572-ih66",
+      "regulator": "RBI",
+      "title": "Reserve Bank of India (Regional Rural Banks - Know Your Customer) Second Amendment Directions, 2026",
+      "refNumber": "",
+      "publishDate": "2026-11-27",
+      "sourceUrl": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13766&Mode=0",
+      "rawText": "Reserve Bank of India (Regional Rural Banks - Know Your Customer) Second Amendment Directions, 2026 — Fri, 27 Nov 2026 20:45:00",
+      "aiSummary": "Official RBI release: Reserve Bank of India (Regional Rural Banks - Know Your Customer) Second Amendment Directions, 2026. See the source document for the authoritative requirements and effective dates.",
+      "impactTags": [
+        "other"
+      ],
+      "applicableEntities": [],
+      "urgency": "LOW",
+      "keyActionItems": [
+        "Review the official source document and identify applicability.",
+        "Confirm effective date, deadlines, and implementation requirements.",
+        "Record any required internal compliance action."
+      ],
+      "scrapedAt": "2026-11-27T20:03:41.572Z",
+      "isNew": true
+    },
+    {
+      "id": "rbi-1795809821570-vr06",
+      "regulator": "RBI",
+      "title": "Reserve Bank of India (Urban Co-operative Banks - Know Your Customer) Second Amendment Directions, 2026",
+      "refNumber": "",
+      "publishDate": "2026-11-27",
+      "sourceUrl": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13767&Mode=0",
+      "rawText": "Reserve Bank of India (Urban Co-operative Banks - Know Your Customer) Second Amendment Directions, 2026 — Fri, 27 Nov 2026 20:45:00",
+      "aiSummary": "Official RBI release: Reserve Bank of India (Urban Co-operative Banks - Know Your Customer) Second Amendment Directions, 2026. See the source document for the authoritative requirements and effective dates.",
+      "impactTags": [
+        "other"
+      ],
+      "applicableEntities": [],
+      "urgency": "LOW",
+      "keyActionItems": [
+        "Review the official source document and identify applicability.",
+        "Confirm effective date, deadlines, and implementation requirements.",
+        "Record any required internal compliance action."
+      ],
+      "scrapedAt": "2026-11-27T20:03:41.570Z",
+      "isNew": true
+    },
+    {
+      "id": "rbi-1795809821566-ragp",
+      "regulator": "RBI",
+      "title": "Reserve Bank of India (Payment Banks - Know Your Customer) Amendment Directions, 2026",
+      "refNumber": "",
+      "publishDate": "2026-11-27",
+      "sourceUrl": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13768&Mode=0",
+      "rawText": "Reserve Bank of India (Payment Banks - Know Your Customer) Amendment Directions, 2026 — Fri, 27 Nov 2026 20:45:00",
+      "aiSummary": "Official RBI release: Reserve Bank of India (Payment Banks - Know Your Customer) Amendment Directions, 2026. See the source document for the authoritative requirements and effective dates.",
+      "impactTags": [
+        "fintech & payments"
+      ],
+      "applicableEntities": [],
+      "urgency": "LOW",
+      "keyActionItems": [
+        "Review the official source document and identify applicability.",
+        "Confirm effective date, deadlines, and implementation requirements.",
+        "Record any required internal compliance action."
+      ],
+      "scrapedAt": "2026-11-27T20:03:41.566Z",
+      "isNew": true
+    },
     {
       "id": "rbi-1795689578986-7t8z",
       "regulator": "RBI",
@@ -2754,9 +2974,9 @@
       "name": "SEBI Legal Circulars & Guidelines",
       "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&smid=0&ssid=7",
       "frequency": "Every 30 mins",
-      "lastScrapeTime": "2026-11-27T11:17:40.856Z",
-      "lastScrapeStatus": "success",
-      "lastScrapeMessage": "Extracted 25 items; 0 new circular(s) ingested with deterministic source-grounded classification.",
+      "lastScrapeTime": "2026-11-27T20:03:41.469Z",
+      "lastScrapeStatus": "failed",
+      "lastScrapeMessage": "Scrape failed: fetch failed",
       "totalItemsScraped": 25
     },
     {
@@ -2765,9 +2985,9 @@
       "name": "RBI Notifications & Master Directions",
       "url": "https://www.rbi.org.in/notifications_rss.xml",
       "frequency": "Every 30 mins",
-      "lastScrapeTime": "2026-11-27T11:17:40.918Z",
+      "lastScrapeTime": "2026-11-27T20:03:41.592Z",
       "lastScrapeStatus": "success",
-      "lastScrapeMessage": "Extracted 10 items; 0 new circular(s) ingested with deterministic source-grounded classification.",
+      "lastScrapeMessage": "Extracted 10 items; 10 new circular(s) ingested with deterministic source-grounded classification.",
       "totalItemsScraped": 10
     },
     {
@@ -2776,7 +2996,7 @@
       "name": "Ministry of Corporate Affairs Notifications & Circulars",
       "url": "https://www.mca.gov.in/content/mca/global/en/home.html",
       "frequency": "Every 1 hour",
-      "lastScrapeTime": "2026-11-27T11:17:41.279Z",
+      "lastScrapeTime": "2026-11-27T20:03:41.773Z",
       "lastScrapeStatus": "failed",
       "lastScrapeMessage": "Scrape failed: MCA returned HTTP 403",
       "totalItemsScraped": 0
@@ -2787,7 +3007,7 @@
       "name": "CBDT / Income Tax Circulars & Orders",
       "url": "https://www.incometaxindia.gov.in/circular-rss-feed/-/asset_publisher/bxhj/rss",
       "frequency": "Every 1 hour",
-      "lastScrapeTime": "2026-11-27T11:17:41.850Z",
+      "lastScrapeTime": "2026-11-27T20:03:42.437Z",
       "lastScrapeStatus": "success",
       "lastScrapeMessage": "Extracted 10 items; 0 new circular(s) ingested with deterministic source-grounded classification.",
       "totalItemsScraped": 10
@@ -2798,7 +3018,7 @@
       "name": "CBIC / GST & Customs Notifications",
       "url": "https://taxinformation.cbic.gov.in/",
       "frequency": "Every 1 hour",
-      "lastScrapeTime": "2026-11-27T11:17:44.387Z",
+      "lastScrapeTime": "2026-11-27T20:03:44.935Z",
       "lastScrapeStatus": "failed",
       "lastScrapeMessage": "Scrape failed: fetch failed",
       "totalItemsScraped": 0
